@@ -3,14 +3,32 @@
 @tailwind utilities;
 
 @layer components {
-	.card {
-		background-color: theme('colors.white');
-		border-radius: theme('borderRadius.lg');
-		padding: theme('spacing.6');
-		box-shadow: theme('boxShadow.xl');
+	.main-web-container {
+		height: 100vh;
+		width: 100vw;
+		background-color: theme('colors.zinc.100');
+		overflow-x: hidden;
 	}
-}
 
-html {
-	font-family: 'Sofia Sans';
+	.card {
+		padding: 15px 22px;
+		background-color: theme('colors.zinc.100');
+		border-radius: theme('borderRadius.xl');
+		padding: theme('spacing.6');
+		box-shadow: theme('boxShadow.2xl');
+	}
+
+	.button {
+		padding: 10px 17px;
+		color: white;
+		user-select: none;
+		background: theme('colors.purple.700');
+		box-shadow: theme('boxShadow.2xl');
+		border-radius: theme('borderRadius.xl');
+	}
+
+	.button:hover {
+		transition: 0.2s ease-in-out;
+		transform: scale(1.1);
+	}
 }

@@ -1,4 +1,5 @@
-import Test from '@/components/Test'
+import Button from '@/components/ui/Button'
+import Card from '@/components/ui/Card'
 import { Inter } from '@next/font/google'
 
 const inter = Inter({
@@ -7,10 +8,9 @@ const inter = Inter({
 
 export default function Home() {
 	return (
-		<main className={inter.className}>
-			<div className="h-screen w-screen bg-zinc-900">
-				<Test />
-			</div>
+		<main className={`main-web-container ${inter.className}`}>
+			<Card>Test</Card>
+			<Button buttonText="Test" />
 		</main>
 	)
 }
