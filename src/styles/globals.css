@@ -20,7 +20,7 @@
 
 	.button {
 		padding: 10px 17px;
-		color: white;
+		color: theme('colors.zinc.100');
 		user-select: none;
 		background: theme('colors.purple.700');
 		box-shadow: theme('boxShadow.2xl');
@@ -30,5 +30,13 @@
 	.button:hover {
 		transition: 0.2s ease-in-out;
 		transform: scale(1.1);
+	}
+
+	.input {
+		padding: 10px 17px;
+		background-color: theme('colors.zinc.100');
+		outline: none;
+		border: theme('colors.zinc.200') solid;
+		border-radius: theme('borderRadius.lg');
 	}
 }
