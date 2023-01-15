@@ -1,5 +1,6 @@
 import React from 'react'
-import SectionContainer from '../section-container/SectionContainer'
+
+import SectionContainer from '../../../ui/SectionContainer'
 
 const Banner = () => {
 	return <SectionContainer>Banner</SectionContainer>

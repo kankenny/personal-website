@@ -1,6 +1,7 @@
-import SectionTitle from '@/components/ui/SectionTitle'
 import React from 'react'
-import SectionContainer from '../section-container/SectionContainer'
+
+import SectionContainer from '../../../ui/SectionContainer'
+import SectionTitle from '@/components/ui/SectionTitle'
 
 const Highlights = () => {
 	return (
