@@ -6,9 +6,9 @@ import LatestWork from './latest-work/LatestWork'
 const BodyContent = () => {
 	return (
 		<div className="flex flex-col justify-between mx-auto align-middle">
-			<Banner></Banner>
-			<LatestWork></LatestWork>
-			<Highlights></Highlights>
+			<Banner />
+			<LatestWork />
+			<Highlights />
 		</div>
 	)
 }
