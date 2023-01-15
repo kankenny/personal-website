@@ -1,3 +1,4 @@
+import Header from '@/components/layout/header/Header'
 import Button from '@/components/ui/Button'
 import Card from '@/components/ui/Card'
 import StyledInputRef from '@/components/ui/StyledInputRef'
@@ -16,11 +17,14 @@ export default function Home() {
 	}
 
 	return (
-		<main className={`main-web-container ${inter.className}`}>
-			<Card>Test</Card>
-			<Button buttonText="Test" />
-			<StyledInputRef type="text" ref={inputRef} />
-			<button onClick={checkHandler}>testest</button>
-		</main>
+		<div className={`main-web-container ${inter.className}`}>
+			<main>
+				<Header />
+				<Card>Test</Card>
+				<Button buttonText="Test" />
+				<StyledInputRef type="text" ref={inputRef} />
+				<button onClick={checkHandler}>testest</button>
+			</main>
+		</div>
 	)
 }

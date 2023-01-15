@@ -6,7 +6,6 @@
 	.main-web-container {
 		height: 100vh;
 		background-color: theme('colors.zinc.100');
-		overflow-x: hidden;
 	}
 
 	.card {
