@@ -10,10 +10,10 @@ type Props = {
 
 const Links = ({ areHeaderLinks }: Props) => {
 	const links = [
-		new LinkClass('Home', false),
+		new LinkClass('Work Experience', false),
 		new LinkClass('Academics', false),
-		new LinkClass('Hobbies', false),
 		new LinkClass('Projects', false),
+		new LinkClass('Hobbies', false),
 	]
 
 	return (
