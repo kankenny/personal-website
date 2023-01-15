@@ -12,7 +12,7 @@ const SectionContainer = ({ twClasses, children }: Props) => {
 		>
 			<div
 				className="
-            container mx-auto bg-red-500 h-full"
+            container mx-auto  h-full"
 			>
 				{children}
 			</div>
