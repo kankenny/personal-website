@@ -18,11 +18,13 @@ const Links = ({ areHeaderLinks }: Props) => {
 
 	return (
 		<LinkItemsContainer areHeaderLinks={areHeaderLinks}>
-			{links.map((link, index) => (
+			{links.map((link) => (
+				// eslint-disable-next-line react/jsx-key
 				<LinkItem
 					linkText={link.linkText}
 					isSelected={link.isSelected}
-					key={index}
+					id={link.linkText}
+					key={link.linkText}
 				/>
 			))}
 		</LinkItemsContainer>

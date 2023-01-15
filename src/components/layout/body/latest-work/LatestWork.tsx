@@ -1,5 +1,5 @@
 import React from 'react'
-import SectionContainer from '../section-container.tsx/SectionContainer'
+import SectionContainer from '../section-container/SectionContainer'
 
 const LatestWork = () => {
 	return (
