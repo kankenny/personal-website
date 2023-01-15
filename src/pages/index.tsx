@@ -1,7 +1,7 @@
 import Header from '@/components/layout/header/Header'
-import Button from '@/components/ui/Button'
-import Card from '@/components/ui/Card'
-import StyledInputRef from '@/components/ui/StyledInputRef'
+import Body from '@/components/layout/body/Body'
+import Footer from '@/components/layout/footer/Footer'
+
 import { Inter } from '@next/font/google'
 import { useRef } from 'react'
 
@@ -17,14 +17,14 @@ export default function Home() {
 	}
 
 	return (
-		<div className={`main-web-container ${inter.className}`}>
-			<main>
+		<main>
+			<div
+				className={`main-web-container flex flex-col justify-between ${inter.className}`}
+			>
 				<Header />
-				<Card>Test</Card>
-				<Button buttonText="Test" />
-				<StyledInputRef type="text" ref={inputRef} />
-				<button onClick={checkHandler}>testest</button>
-			</main>
-		</div>
+				<Body />
+				<Footer />
+			</div>
+		</main>
 	)
 }
