@@ -3,14 +3,14 @@ import React from 'react'
 type Props = {
 	linkText: string
 	isSelected: boolean
-	key: number
+	id: string
 }
 
-const LinkItem = ({ linkText, isSelected, key }: Props) => {
+const LinkItem = ({ linkText, isSelected, id }: Props) => {
 	return (
 		<li
 			className="p-2 text-sm duration-200 hover:scale-110 cursor-pointer text-center font-light "
-			key={key}
+			key={id}
 		>
 			{linkText}
 		</li>
