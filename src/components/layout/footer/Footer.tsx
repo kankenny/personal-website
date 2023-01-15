@@ -3,7 +3,7 @@ import FooterContent from './FooterContent'
 
 const Footer = () => {
 	return (
-		<div className="layout bg-zinc-900 text-white">
+		<div className="bg-zinc-900 text-zinc-100">
 			<FooterContent />
 		</div>
 	)
