@@ -11,7 +11,7 @@ const LinkItemsContainer = ({ areHeaderLinks, children }: Props) => {
 		: ' flex-col space-y-6 space-x-0 md:space-x-6 md:space-y-0 md:flex-row my-auto'
 
 	return (
-		<ul className={`container flex bg-blue-500 max-w-fit ${twClasses}`}>
+		<ul className={`container flex max-w-fit ${twClasses}`}>
 			{children}
 		</ul>
 	)
