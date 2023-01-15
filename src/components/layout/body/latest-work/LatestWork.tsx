@@ -1,7 +1,8 @@
 import React from 'react'
 
+import SectionContainer from '../../../ui/SectionContainer'
 import SectionTitle from '@/components/ui/SectionTitle'
-import SectionContainer from '../section-container/SectionContainer'
+import LatestWorkList from './LatestWorkList'
 
 const LatestWork = () => {
 	return (
@@ -10,6 +11,7 @@ const LatestWork = () => {
 				sectionTitle="some of my latest work"
 				isOdd={true}
 			/>
+			<LatestWorkList />
 		</SectionContainer>
 	)
 }

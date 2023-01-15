@@ -11,7 +11,7 @@
 	.card {
 		padding: 15px 22px;
 		background-color: theme('colors.zinc.100');
-		border-radius: theme('borderRadius.xl');
+		border-radius: theme('borderRadius.lg');
 		padding: theme('spacing.6');
 		box-shadow: theme('boxShadow.2xl');
 	}

@@ -1,6 +1,6 @@
 import { Fragment } from 'react'
 
-import LinkClass from '@/data-models/LinkClass'
+import LinkClass from '@/utils/data-models/LinkClass'
 import LinkItem from './LinkItem'
 import LinkItemsContainer from './LinkItemsContainer'
 
@@ -19,7 +19,6 @@ const Links = ({ areHeaderLinks }: Props) => {
 	return (
 		<LinkItemsContainer areHeaderLinks={areHeaderLinks}>
 			{links.map((link) => (
-				// eslint-disable-next-line react/jsx-key
 				<LinkItem
 					linkText={link.linkText}
 					isSelected={link.isSelected}
