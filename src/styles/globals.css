@@ -4,24 +4,22 @@
 
 @layer components {
 	.main-web-container {
-		height: 100vh;
 		background-color: theme('colors.zinc.100');
 	}
 
 	.card {
-		padding: 15px 22px;
+		padding: 1px 2px;
 		background-color: theme('colors.zinc.100');
 		border-radius: theme('borderRadius.lg');
 		padding: theme('spacing.6');
-		box-shadow: theme('boxShadow.2xl');
+		box-shadow: theme('boxShadow.lg');
 	}
 
 	.button {
-		padding: 10px 17px;
 		color: theme('colors.zinc.100');
 		user-select: none;
 		background: theme('colors.purple.700');
-		box-shadow: theme('boxShadow.2xl');
+		box-shadow: theme('boxShadow.lg');
 		border-radius: theme('borderRadius.xl');
 	}
 
