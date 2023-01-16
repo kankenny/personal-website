@@ -10,22 +10,20 @@ type Props = {
 
 const LatestWorkItem = ({ img, title, workType }: Props) => {
 	return (
-		<Card twClasses="w-52 duration-200 hover:scale-105">
-			<li>
+		<li>
+			<Card twClasses="w-56 duration-200 hover:scale-105 p-2 tracking-wide">
 				{/* // eslint-disable-next-line @next/next/no-img-element */}
-				<div className="">
-					<img
-						src={img}
-						alt={title}
-						className="rounded-lg cursor-pointer"
-					/>
-				</div>
-				<div className="pt-2 file:tracking-wide">
+				<img
+					src={img}
+					alt={title}
+					className="bg-zinc-600 rounded-lg cursor-pointer object-contain"
+				/>
+				<div className="p-2 file:tracking-wide">
 					<h1 className="">{title}</h1>
 					<h2 className="text-zinc-600 text-sm">{workType}</h2>
 				</div>
-			</li>
-		</Card>
+			</Card>
+		</li>
 	)
 }
 

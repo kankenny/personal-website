@@ -7,12 +7,12 @@ import portrait from '../../../../assets/home/portrait.png'
 
 const Banner = () => {
 	return (
-		<SectionContainer twClasses="bg-zinc-100 pb-0 cursor-pointer group">
-			<div className="flex flex-row  items-center">
+		<SectionContainer twClasses=" pb-0 cursor-pointer group bg-gradient-to-b from-zinc-900 to-zinc-100">
+			<div className="flex flex-row">
 				<img
 					src={portrait.src}
 					alt="Kennette James Basco"
-					className="w-[35%] hidden md:block"
+					className="w-[25%] hidden md:block"
 				/>
 				<BannerDescription />
 			</div>

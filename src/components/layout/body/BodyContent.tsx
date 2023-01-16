@@ -1,14 +1,11 @@
 import React from 'react'
-import Banner from './banner/Banner'
-import Highlights from './highlights/Highlights'
-import LatestWork from './latest-work/LatestWork'
+
+import Home from '@/components/routes/home/Home'
 
 const BodyContent = () => {
 	return (
 		<div className="flex flex-col justify-between mx-auto align-middle">
-			<Banner />
-			<LatestWork />
-			<Highlights />
+			<Home />
 		</div>
 	)
 }

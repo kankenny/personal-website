@@ -22,7 +22,7 @@ const latestWorkList = [
 
 const LatestWorkList = () => {
 	return (
-		<ul className="flex flex-col items-center md:flex-row space-y-6 md:space-y-0 space-x-0 md:space-x-6 justify-center">
+		<ul className="flex flex-col flex-wrap items-center md:flex-row space-y-6 md:space-y-0 space-x-0 md:space-x-6 justify-center">
 			{latestWorkList.map((latestWork) => (
 				<LatestWorkItem
 					img={latestWork.img}
