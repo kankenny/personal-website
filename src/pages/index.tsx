@@ -19,7 +19,7 @@ export default function Home() {
 	return (
 		<main>
 			<div
-				className={`main-web-container flex flex-col justify-between ${inter.className}`}
+				className={`main-web-container flex flex-col min-h-screen ${inter.className}`}
 			>
 				<Header />
 				<Body />

@@ -8,7 +8,7 @@ type Props = {
 
 const Card = ({ twClasses, children, onCardClick }: Props) => {
 	return (
-		<div className={`card container ${twClasses}`} onClick={onCardClick}>
+		<div className={`card ${twClasses}`} onClick={onCardClick}>
 			{children}
 		</div>
 	)

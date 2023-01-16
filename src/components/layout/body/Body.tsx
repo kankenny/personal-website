@@ -3,7 +3,7 @@ import BodyContent from './BodyContent'
 
 const Body = () => {
 	return (
-		<div className="h-full bg-zinc-100">
+		<div className="h-full">
 			<BodyContent />
 		</div>
 	)
