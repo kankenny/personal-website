@@ -1,9 +1,9 @@
 import Header from '@/components/layout/header/Header'
-import Body from '@/components/layout/body/Body'
 import Footer from '@/components/layout/footer/Footer'
 
 import { Inter } from '@next/font/google'
 import { useRef } from 'react'
+import HomePage from '@/components/routes/home/HomePage'
 
 const inter = Inter({
 	subsets: ['latin'],
@@ -22,7 +22,7 @@ export default function Home() {
 				className={`main-web-container flex flex-col min-h-screen ${inter.className}`}
 			>
 				<Header />
-				<Body />
+				<HomePage />
 				<Footer />
 			</div>
 		</main>

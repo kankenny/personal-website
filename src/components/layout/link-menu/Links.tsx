@@ -10,15 +10,11 @@ type Props = {
 }
 
 const Links = ({ areHeaderLinks }: Props) => {
-	const links = [
-		new LinkClass('Work Experience', false),
-		new LinkClass('Academics', false),
-		new LinkClass('Projects', false),
-		new LinkClass('Hobbies', false),
-	]
-
 	return (
 		<LinkItemsContainer areHeaderLinks={areHeaderLinks}>
+			<Link href="/" passHref legacyBehavior>
+				<LinkItem linkText="Home"></LinkItem>
+			</Link>
 			<Link href="/work-experience" passHref legacyBehavior>
 				<LinkItem linkText="Work Experience"></LinkItem>
 			</Link>
