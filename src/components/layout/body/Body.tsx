@@ -1,10 +1,14 @@
 import React from 'react'
-import BodyContent from './BodyContent'
+import BodyContainer from './BodyContainer'
 
-const Body = () => {
+type Props = {
+	children: React.ReactNode
+}
+
+const Body = ({ children }: Props) => {
 	return (
 		<div className="h-full">
-			<BodyContent />
+			<BodyContainer>{children}</BodyContainer>
 		</div>
 	)
 }
