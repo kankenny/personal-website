@@ -10,12 +10,6 @@ const inter = Inter({
 })
 
 export default function Home() {
-	const inputRef = useRef<HTMLInputElement>(null)
-
-	const checkHandler = () => {
-		console.log(inputRef.current?.value)
-	}
-
 	return (
 		<main>
 			<div
