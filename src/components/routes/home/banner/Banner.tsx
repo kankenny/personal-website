@@ -7,7 +7,7 @@ import portrait from '../../../../assets/home/portrait.png'
 
 const Banner = () => {
 	return (
-		<SectionContainer twClasses=" pb-0 cursor-pointer group bg-gradient-to-b from-zinc-900 to-zinc-100">
+		<SectionContainer twClasses=" pb-0 cursor-pointer group bg-zinc-100">
 			<div className="flex flex-row">
 				<img
 					src={portrait.src}

@@ -11,7 +11,7 @@ type Props = {
 const LatestWorkItem = ({ img, title, workType }: Props) => {
 	return (
 		<li>
-			<Card twClasses="w-56 duration-200 hover:scale-105 p-2 tracking-wide">
+			<Card twClasses="w-64 duration-200 hover:scale-105 p-2 tracking-wide">
 				{/* // eslint-disable-next-line @next/next/no-img-element */}
 				<img
 					src={img}
