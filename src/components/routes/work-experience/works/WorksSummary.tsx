@@ -12,54 +12,61 @@ const Works = () => {
 		new WorkCardClass(
 			dummyImage,
 			'Supplemental Instruction Leader',
+			'Assisted students by conducting biweekly sessions to teach integral calculus',
 			'New York Institute of Technology',
 			'Student Tutor'
 		),
 		new WorkCardClass(
 			dummyImage,
 			'Undergraduate Research Assistant',
+			'Assisted students by conducting biweekly sessions to teach integral calculus',
 			'New York Institute of Technology',
 			'Student'
 		),
 		new WorkCardClass(
 			dummyImage,
 			'Supplemental Instruction Leadera',
+			'Assisted students by conducting biweekly sessions to teach integral calculus',
 			'New York Institute of Technology',
 			'Student Tutor'
 		),
 		new WorkCardClass(
 			dummyImage,
 			'Undergraduate Research Assistants',
+			'Assisted students by conducting biweekly sessions to teach integral calculus',
 			'New York Institute of Technology',
 			'Student'
 		),
 		new WorkCardClass(
 			dummyImage,
 			'Supplemental Instruction Leaderd',
+			'Assisted students by conducting biweekly sessions to teach integral calculus',
 			'New York Institute of Technology',
 			'Student Tutor'
 		),
 		new WorkCardClass(
 			dummyImage,
 			'Undergraduate Research Assistantf',
+			'Assisted students by conducting biweekly sessions to teach integral calculus',
 			'New York Institute of Technology',
 			'Student'
 		),
 	]
 
 	return (
-		<SectionContainer twClasses="p-5 md:p-20">
-			<ul className="flex flex-col flex-wrap items-center md:flex-row gap-10 p-10">
+		<SectionContainer twClasses="py-20">
+			<div className="mx-auto grid grid-cols-1 gap-6 p-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
 				{workSummaries.map((workSummary) => (
 					<WorkCard
 						img={workSummary.img}
 						title={workSummary.title}
+						overview={workSummary.overview}
 						workCompany={workSummary.workCompany}
 						position={workSummary.position}
 						key={workSummary.title}
 					/>
 				))}
-			</ul>
+			</div>
 		</SectionContainer>
 	)
 }

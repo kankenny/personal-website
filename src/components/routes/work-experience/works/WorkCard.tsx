@@ -4,19 +4,59 @@ import React from 'react'
 type Props = {
 	img: string
 	title: string
+	overview: string
 	workCompany: string
 	position: string
 }
 
-const WorkCard = ({ img, title, workCompany, position }: Props) => {
+const WorkCard = ({ img, title, overview, workCompany, position }: Props) => {
 	return (
-		<Card twClasses="flex-grow duration-200 hover:scale-105 cursor-pointer">
-			<img src={img} alt={title} />
-			<div className="p-2 file:tracking-wide pb-10">
-				<h1 className="">{title}</h1>
-				<h2 className="text-zinc-600 text-sm">{position}</h2>
-				<h2 className="text-zinc-600 text-sm">@{workCompany}</h2>
-			</div>
+		<Card twClasses="rounded-xl bg-white p-3 shadow-lg hover:shadow-xl hover:transform hover:scale-105 duration-300 group">
+			<a href="#">
+				<div className="relative flex items-end overflow-hidden rounded-xl">
+					<img
+						src="https://images.unsplash.com/photo-1539185441755-769473a23570?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"
+						alt="Hotel Photo"
+					/>
+					{/* <img src={img} /> */}
+				</div>
+
+				<div className="mt-1 p-2">
+					<h2 className="text-slate-700">{title}</h2>
+					<p className="mt-1 text-sm text-slate-400">
+						{overview}
+					</p>
+
+					<div className="mt-3 flex items-end justify-between">
+						<p>
+							<span className="text-md font-bold text-purple-500">
+								{position}
+							</span>
+							<span className="text-xs text-slate-400">
+								{`  @ ${workCompany}`}
+							</span>
+						</p>
+
+						<svg
+							stroke="currentColor"
+							fill="currentColor"
+							stroke-width="0"
+							viewBox="0 0 24 24"
+							height="2.5em"
+							width="2.5em"
+							className=" opacity-0 group-hover:opacity-100 duration-200"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<polyline
+								fill="none"
+								stroke="#000"
+								stroke-width="2"
+								points="7 2 17 12 7 22"
+							></polyline>
+						</svg>
+					</div>
+				</div>
+			</a>
 		</Card>
 	)
 }
