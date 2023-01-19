@@ -49,7 +49,7 @@ const Works = () => {
 
 	return (
 		<SectionContainer twClasses="p-5 md:p-20">
-			<ul className=" flex flex-col flex-wrap items-center md:flex-row gap-10 p-10 w-full">
+			<ul className="flex flex-col flex-wrap items-center md:flex-row gap-10 p-10">
 				{workSummaries.map((workSummary) => (
 					<WorkCard
 						img={workSummary.img}

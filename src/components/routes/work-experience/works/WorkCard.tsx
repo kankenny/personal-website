@@ -10,7 +10,7 @@ type Props = {
 
 const WorkCard = ({ img, title, workCompany, position }: Props) => {
 	return (
-		<Card twClasses="min-w-[16rem] min-h-[14rem] duration-200 hover:scale-105 cursor-pointer ">
+		<Card twClasses="flex-grow duration-200 hover:scale-105 cursor-pointer">
 			<img src={img} alt={title} />
 			<div className="p-2 file:tracking-wide pb-10">
 				<h1 className="">{title}</h1>
