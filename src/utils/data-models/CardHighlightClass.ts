@@ -1,4 +1,4 @@
-class WorkCardClass {
+class CardHighlightClass {
 	img: string
 	title: string
 	overview: string
@@ -20,4 +20,4 @@ class WorkCardClass {
 	}
 }
 
-export default WorkCardClass
+export default CardHighlightClass

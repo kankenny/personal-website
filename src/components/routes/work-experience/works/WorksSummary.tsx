@@ -1,50 +1,51 @@
-import Card from '@/components/ui/Card'
-import SectionContainer from '@/components/ui/SectionContainer'
 import React from 'react'
+
+import SectionContainer from '@/components/ui/SectionContainer'
 import WorkCard from './WorkCard'
 
-import WorkCardClass from '@/utils/data-models/WorkCardClass'
+import CardHighlightClass from '@/utils/data-models/CardHighlightClass'
+import SectionTitle from '@/components/ui/SectionTitle'
 
 const Works = () => {
 	const dummyImage = 'https://unsplash.com/photos/sf_1ZDA1YFw'
 
 	const workSummaries = [
-		new WorkCardClass(
+		new CardHighlightClass(
 			dummyImage,
 			'Supplemental Instruction Leader',
 			'Assisted students by conducting biweekly sessions to teach integral calculus',
 			'New York Institute of Technology',
 			'Student Tutor'
 		),
-		new WorkCardClass(
+		new CardHighlightClass(
 			dummyImage,
 			'Undergraduate Research Assistant',
 			'Assisted students by conducting biweekly sessions to teach integral calculus',
 			'New York Institute of Technology',
 			'Student'
 		),
-		new WorkCardClass(
+		new CardHighlightClass(
 			dummyImage,
 			'Supplemental Instruction Leadera',
 			'Assisted students by conducting biweekly sessions to teach integral calculus',
 			'New York Institute of Technology',
 			'Student Tutor'
 		),
-		new WorkCardClass(
+		new CardHighlightClass(
 			dummyImage,
 			'Undergraduate Research Assistants',
 			'Assisted students by conducting biweekly sessions to teach integral calculus',
 			'New York Institute of Technology',
 			'Student'
 		),
-		new WorkCardClass(
+		new CardHighlightClass(
 			dummyImage,
 			'Supplemental Instruction Leaderd',
 			'Assisted students by conducting biweekly sessions to teach integral calculus',
 			'New York Institute of Technology',
 			'Student Tutor'
 		),
-		new WorkCardClass(
+		new CardHighlightClass(
 			dummyImage,
 			'Undergraduate Research Assistantf',
 			'Assisted students by conducting biweekly sessions to teach integral calculus',
@@ -55,6 +56,7 @@ const Works = () => {
 
 	return (
 		<SectionContainer twClasses="py-20">
+			<SectionTitle sectionTitle="My other work experiences" />
 			<div className="mx-auto grid grid-cols-1 gap-6 p-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
 				{workSummaries.map((workSummary) => (
 					<WorkCard
