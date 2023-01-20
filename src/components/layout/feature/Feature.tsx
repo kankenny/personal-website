@@ -1,3 +1,4 @@
+import SectionContainer from '@/components/ui/SectionContainer'
 import React from 'react'
 
 type Props = {
@@ -8,7 +9,11 @@ type Props = {
 }
 
 const Feature = ({ img, title, description, featureType }: Props) => {
-	return <div>Feature</div>
+	return (
+		<SectionContainer twClasses="p-20">
+			<div className="bg-red-500">Feature</div>
+		</SectionContainer>
+	)
 }
 
 export default Feature

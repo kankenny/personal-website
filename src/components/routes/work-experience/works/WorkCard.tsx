@@ -50,7 +50,7 @@ const WorkCard = ({ img, title, overview, workCompany, position }: Props) => {
 							<polyline
 								fill="none"
 								stroke="#000"
-								stroke-width="2"
+								strokeWidth="2"
 								points="7 2 17 12 7 22"
 							></polyline>
 						</svg>
