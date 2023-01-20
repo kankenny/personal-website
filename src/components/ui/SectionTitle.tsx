@@ -2,7 +2,7 @@ import React from 'react'
 
 type Props = {
 	sectionTitle: string
-	isOdd: boolean
+	isOdd?: boolean
 }
 
 const SectionTitle = ({ sectionTitle, isOdd }: Props) => {

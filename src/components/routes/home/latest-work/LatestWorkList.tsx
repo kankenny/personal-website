@@ -1,37 +1,47 @@
-import LatestWorkClass from '@/utils/data-models/LatestWorkClass'
+import SectionContainer from '@/components/ui/SectionContainer'
+import CardHighlightClass from '@/utils/data-models/CardHighlightClass'
 import React from 'react'
+
 import LatestWorkItem from './LatestWorkItem'
 
 const latestWorkList = [
-	new LatestWorkClass(
+	new CardHighlightClass(
 		'https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Orange_tabby_cat_sitting_on_fallen_leaves-Hisashi-01A.jpg/1024px-Orange_tabby_cat_sitting_on_fallen_leaves-Hisashi-01A.jpg',
 		'Cat1',
-		'Hobby'
+		'Hobby',
+		'Somewhere',
+		'Doggy'
 	),
-	new LatestWorkClass(
+	new CardHighlightClass(
 		'https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Orange_tabby_cat_sitting_on_fallen_leaves-Hisashi-01A.jpg/1024px-Orange_tabby_cat_sitting_on_fallen_leaves-Hisashi-01A.jpg',
 		'Cat2',
-		'Academic'
+		'Hobby',
+		'Somewhere',
+		'Doggy'
 	),
-	new LatestWorkClass(
+	new CardHighlightClass(
 		'https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Orange_tabby_cat_sitting_on_fallen_leaves-Hisashi-01A.jpg/1024px-Orange_tabby_cat_sitting_on_fallen_leaves-Hisashi-01A.jpg',
 		'Cat3',
-		'Industry'
+		'Hobby',
+		'Somewhere',
+		'Doggy'
 	),
 ]
 
 const LatestWorkList = () => {
 	return (
-		<ul className="flex flex-col flex-wrap items-center md:flex-row space-y-6 md:space-y-0 space-x-0 md:space-x-6 justify-center">
+		<div className="mx-auto grid grid-cols-1 gap-6 p-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
 			{latestWorkList.map((latestWork) => (
 				<LatestWorkItem
 					img={latestWork.img}
 					title={latestWork.title}
-					workType={latestWork.workType}
+					overview={latestWork.overview}
+					workCompany={latestWork.workCompany}
+					position={latestWork.position}
 					key={latestWork.title}
 				/>
 			))}
-		</ul>
+		</div>
 	)
 }
 
