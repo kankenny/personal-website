@@ -11,60 +11,35 @@ type Props = {
 const Links = ({ areHeaderLinks }: Props) => {
 	const router = useRouter()
 	const pathName = router.pathname
-	console.log(pathName)
 
 	return (
 		<LinkItemsContainer areHeaderLinks={areHeaderLinks}>
 			<Link href="/" passHref legacyBehavior>
-				<LinkItem
-					linkText="Home"
-					twClasses={
-						pathName === '/'
-							? 'text-bold bg-purple-500 border-2 border-zinc-900'
-							: ''
-					}
-				></LinkItem>
+				<LinkItem linkText="Home" isSelected={pathName === '/'} />
 			</Link>
 			<Link href="/work-experience" passHref legacyBehavior>
 				<LinkItem
 					linkText="Work Experience"
-					twClasses={
-						pathName === '/work-experience'
-							? 'text-bold bg-purple-500 border-2 border-zinc-900'
-							: ''
-					}
-				></LinkItem>
+					isSelected={pathName === '/work-experience'}
+				/>
 			</Link>
 			<Link href="/projects" passHref legacyBehavior>
 				<LinkItem
 					linkText="Projects"
-					twClasses={
-						pathName === '/projects'
-							? 'text-bold bg-purple-500 border-2 border-zinc-900'
-							: ''
-					}
-				></LinkItem>
+					isSelected={pathName === '/projects'}
+				/>
 			</Link>
 			<Link href="/academics" passHref legacyBehavior>
 				<LinkItem
 					linkText="Academics"
-					twClasses={
-						pathName === '/academics'
-							? 'text-bold bg-purple-500 border border-zinc-900'
-							: ''
-					}
-				></LinkItem>
+					isSelected={pathName === '/academics'}
+				/>
 			</Link>
-
 			<Link href="/hobbies" passHref legacyBehavior>
 				<LinkItem
 					linkText="Hobbies"
-					twClasses={
-						pathName === '/hobbies'
-							? 'text-bold bg-purple-500 border-2 border-zinc-900'
-							: ''
-					}
-				></LinkItem>
+					isSelected={pathName === '/hobbies'}
+				/>
 			</Link>
 		</LinkItemsContainer>
 	)
