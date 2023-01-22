@@ -1,4 +1,5 @@
 import Body from '@/components/layout/body/Body'
+import Connect from '@/components/layout/body/connect/Connect'
 import Feature from '@/components/layout/feature/Feature'
 import React from 'react'
 import Banner from '../home/banner/Banner'
@@ -17,6 +18,7 @@ const Projects = () => {
 	Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum magnam ullam rem vel exercitationem voluptas itaque unde laboriosam cum asperiores!"
 				featureType="Not a feature"
 			/>
+			<Connect connectWithMeText="Interested in collaborating with me?" />
 			<ProjectsSummary />
 		</Body>
 	)

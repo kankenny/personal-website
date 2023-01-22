@@ -33,9 +33,9 @@ const OverviewCard = ({
 				<h2 className="text-slate-700">{title}</h2>
 				<p className="mt-1 text-sm text-slate-400">{overview}</p>
 
-				<div className="mt-3 flex items-end justify-between">
+				<div className="mt-3 gap-2 flex items-end justify-between text-purple-500">
 					<p>
-						<span className="text-md font-bold text-purple-500">
+						<span className="text-md font-bold ">
 							{position}
 						</span>
 						<span className="text-xs text-slate-400">

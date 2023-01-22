@@ -1,4 +1,5 @@
 import Body from '@/components/layout/body/Body'
+import Connect from '@/components/layout/body/connect/Connect'
 import Feature from '@/components/layout/feature/Feature'
 import React from 'react'
 import Banner from '../home/banner/Banner'
@@ -18,6 +19,7 @@ const Hobbies = () => {
 				featureType="Not a feature"
 			/>
 			<HobbySummary />
+			<Connect connectWithMeText="Let's connect to explore our passions together" />
 		</Body>
 	)
 }
