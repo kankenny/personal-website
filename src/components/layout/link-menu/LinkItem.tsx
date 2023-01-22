@@ -18,7 +18,7 @@ const LinkItem = React.forwardRef<Ref, Props>(
 
 		return (
 			<a
-				className={`p-2 text-md duration-200 hover:scale-110 cursor-pointer text-center font-light tracking-wide select-none rounded-xl ${twClasses}`}
+				className={`p-2 text-md duration-200 hover:scale-110 cursor-pointer text-center font-light tracking-wide select-none rounded-xl  ${twClasses}`}
 				onClick={onClick}
 				href={href}
 				ref={ref}
