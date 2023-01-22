@@ -3,6 +3,7 @@ import Header from '@/components/layout/header/Header'
 import React from 'react'
 
 import CHAKRAPETCHFONT from '@/components/ui/ChakraPetchFont'
+import Projects from '@/components/routes/projects/Projects'
 
 const index = () => {
 	return (
@@ -11,6 +12,7 @@ const index = () => {
 				className={`main-web-container flex flex-col min-h-screen ${CHAKRAPETCHFONT.className}`}
 			>
 				<Header />
+				<Projects />
 				<Footer />
 			</div>
 		</main>
