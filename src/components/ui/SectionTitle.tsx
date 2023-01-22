@@ -10,7 +10,7 @@ const SectionTitle = ({ sectionTitle, isOdd }: Props) => {
 		<div className="p-4">
 			<h2 className="uppercase w-[40%] mx-auto text-zinc-600 text-md font-bold text-center border-b-zinc-600 border-b leading-[.1em] mt-[10px] my-[20px]">
 				<span
-					className={`px-[10px] tracking-widest ${
+					className={`px-[10px] tracking-widest  ${
 						isOdd ? 'bg-zinc-200' : 'bg-zinc-100'
 					}`}
 				>
