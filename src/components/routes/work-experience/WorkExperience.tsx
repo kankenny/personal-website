@@ -4,6 +4,7 @@ import Body from '@/components/layout/body/Body'
 import Banner from '../home/banner/Banner'
 import WorksSummary from './works/WorksSummary'
 import Feature from '@/components/layout/feature/Feature'
+import Connect from '@/components/layout/body/connect/Connect'
 
 const WorkExperience = () => {
 	return (
@@ -18,6 +19,7 @@ const WorkExperience = () => {
 	Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum magnam ullam rem vel exercitationem voluptas itaque unde laboriosam cum asperiores!"
 				featureType="Not a feature"
 			/>
+			<Connect connectWithMeText="Interested in utilizing my skills?" />
 			<WorksSummary />
 		</Body>
 	)
