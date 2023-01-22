@@ -18,7 +18,7 @@ const WorkExperience = () => {
 	Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum magnam ullam rem vel exercitationem voluptas itaque unde laboriosam cum asperiores!"
 				featureType="Not a feature"
 			/>
-			<WorksSummary></WorksSummary>
+			<WorksSummary />
 		</Body>
 	)
 }

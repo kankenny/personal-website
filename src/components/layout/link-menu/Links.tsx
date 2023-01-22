@@ -17,16 +17,16 @@ const Links = ({ areHeaderLinks }: Props) => {
 			<Link href="/" passHref legacyBehavior>
 				<LinkItem linkText="Home" isSelected={pathName === '/'} />
 			</Link>
-			<Link href="/work-experience" passHref legacyBehavior>
-				<LinkItem
-					linkText="Work Experience"
-					isSelected={pathName === '/work-experience'}
-				/>
-			</Link>
 			<Link href="/projects" passHref legacyBehavior>
 				<LinkItem
 					linkText="Projects"
 					isSelected={pathName === '/projects'}
+				/>
+			</Link>
+			<Link href="/work-experience" passHref legacyBehavior>
+				<LinkItem
+					linkText="Work Experience"
+					isSelected={pathName === '/work-experience'}
 				/>
 			</Link>
 			<Link href="/academics" passHref legacyBehavior>
