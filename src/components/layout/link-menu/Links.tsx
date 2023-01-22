@@ -35,16 +35,6 @@ const Links = ({ areHeaderLinks }: Props) => {
 					}
 				></LinkItem>
 			</Link>
-			<Link href="/academics" passHref legacyBehavior>
-				<LinkItem
-					linkText="Academics"
-					twClasses={
-						pathName === '/academics'
-							? 'text-bold bg-purple-500 border border-zinc-900'
-							: ''
-					}
-				></LinkItem>
-			</Link>
 			<Link href="/projects" passHref legacyBehavior>
 				<LinkItem
 					linkText="Projects"
@@ -55,6 +45,17 @@ const Links = ({ areHeaderLinks }: Props) => {
 					}
 				></LinkItem>
 			</Link>
+			<Link href="/academics" passHref legacyBehavior>
+				<LinkItem
+					linkText="Academics"
+					twClasses={
+						pathName === '/academics'
+							? 'text-bold bg-purple-500 border border-zinc-900'
+							: ''
+					}
+				></LinkItem>
+			</Link>
+
 			<Link href="/hobbies" passHref legacyBehavior>
 				<LinkItem
 					linkText="Hobbies"
