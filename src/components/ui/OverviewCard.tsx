@@ -1,3 +1,5 @@
+// Layout component for features listed in the child directory of the root page
+
 import React from 'react'
 
 import Card from './Card'

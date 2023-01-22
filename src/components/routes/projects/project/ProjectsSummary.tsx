@@ -1,11 +1,12 @@
 import React from 'react'
 
 import SectionContainer from '@/components/ui/SectionContainer'
-import CardHighlightClass from '@/utils/data-models/CardHighlightClass'
 import SectionTitle from '@/components/ui/SectionTitle'
+import CardHighlightClass from '@/utils/data-models/CardHighlightClass'
+
 import OverviewCard from '@/components/ui/OverviewCard'
 
-const Works = () => {
+const ProjectsSummary = () => {
 	const dummyImage = 'https://unsplash.com/photos/sf_1ZDA1YFw'
 
 	const workSummaries = [
@@ -55,7 +56,7 @@ const Works = () => {
 
 	return (
 		<SectionContainer twClasses="py-20">
-			<SectionTitle sectionTitle="My other work experiences" />
+			<SectionTitle sectionTitle="See more of my projects" />
 			<div className="mx-auto grid grid-cols-1 gap-6 p-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
 				{workSummaries.map((workSummary) => (
 					<OverviewCard
@@ -72,4 +73,4 @@ const Works = () => {
 	)
 }
 
-export default Works
+export default ProjectsSummary
