@@ -7,17 +7,7 @@ import CHAKRAPETCHFONT from '@/components/ui/ChakraPetchFont'
 import Academics from '@/components/routes/academics/Academics'
 
 const index = () => {
-	return (
-		<main>
-			<div
-				className={`main-web-container flex flex-col min-h-screen ${CHAKRAPETCHFONT.className}`}
-			>
-				<Header />
-				<Academics />
-				<Footer />
-			</div>
-		</main>
-	)
+	return <Academics />
 }
 
 export default index
