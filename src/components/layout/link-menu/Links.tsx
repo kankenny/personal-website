@@ -1,7 +1,6 @@
-import { Fragment } from 'react'
-import Link from 'next/link'
+import { useRouter } from 'next/router'
 
-import LinkClass from '@/utils/data-models/LinkClass'
+import Link from 'next/link'
 import LinkItem from './LinkItem'
 import LinkItemsContainer from './LinkItemsContainer'
 
@@ -10,22 +9,59 @@ type Props = {
 }
 
 const Links = ({ areHeaderLinks }: Props) => {
+	const router = useRouter()
+	const pathName = router.pathname
+	console.log(pathName)
+
 	return (
 		<LinkItemsContainer areHeaderLinks={areHeaderLinks}>
 			<Link href="/" passHref legacyBehavior>
-				<LinkItem linkText="Home"></LinkItem>
+				<LinkItem
+					linkText="Home"
+					twClasses={
+						pathName === '/' ? 'text-bold bg-purple-500' : ''
+					}
+				></LinkItem>
 			</Link>
 			<Link href="/work-experience" passHref legacyBehavior>
-				<LinkItem linkText="Work Experience"></LinkItem>
+				<LinkItem
+					linkText="Work Experience"
+					twClasses={
+						pathName === '/work-experience'
+							? 'text-bold bg-purple-500'
+							: ''
+					}
+				></LinkItem>
 			</Link>
 			<Link href="/academics" passHref legacyBehavior>
-				<LinkItem linkText="Academics"></LinkItem>
+				<LinkItem
+					linkText="Academics"
+					twClasses={
+						pathName === '/academics'
+							? 'text-bold bg-purple-500'
+							: ''
+					}
+				></LinkItem>
 			</Link>
 			<Link href="/projects" passHref legacyBehavior>
-				<LinkItem linkText="Projects"></LinkItem>
+				<LinkItem
+					linkText="Projects"
+					twClasses={
+						pathName === '/projects'
+							? 'text-bold bg-purple-500'
+							: ''
+					}
+				></LinkItem>
 			</Link>
 			<Link href="/hobbies" passHref legacyBehavior>
-				<LinkItem linkText="Hobbies"></LinkItem>
+				<LinkItem
+					linkText="Hobbies"
+					twClasses={
+						pathName === '/hobbies'
+							? 'text-bold bg-purple-500'
+							: ''
+					}
+				></LinkItem>
 			</Link>
 		</LinkItemsContainer>
 	)
