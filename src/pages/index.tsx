@@ -1,19 +1,15 @@
 import Header from '@/components/layout/header/Header'
 import Footer from '@/components/layout/footer/Footer'
 
-import { Inter } from '@next/font/google'
-import { useRef } from 'react'
 import HomePage from '@/components/routes/home/HomePage'
 
-const inter = Inter({
-	subsets: ['latin'],
-})
+import CHAKRAPETCHFONT from '@/components/ui/ChakraPetchFont'
 
 export default function Home() {
 	return (
 		<main>
 			<div
-				className={`main-web-container flex flex-col min-h-screen ${inter.className}`}
+				className={`main-web-container flex flex-col min-h-screen ${CHAKRAPETCHFONT.className}`}
 			>
 				<Header />
 				<HomePage />

@@ -19,7 +19,9 @@ const Links = ({ areHeaderLinks }: Props) => {
 				<LinkItem
 					linkText="Home"
 					twClasses={
-						pathName === '/' ? 'text-bold bg-purple-500' : ''
+						pathName === '/'
+							? 'text-bold bg-purple-500 border-2 border-zinc-900'
+							: ''
 					}
 				></LinkItem>
 			</Link>
@@ -28,7 +30,7 @@ const Links = ({ areHeaderLinks }: Props) => {
 					linkText="Work Experience"
 					twClasses={
 						pathName === '/work-experience'
-							? 'text-bold bg-purple-500'
+							? 'text-bold bg-purple-500 border-2 border-zinc-900'
 							: ''
 					}
 				></LinkItem>
@@ -38,7 +40,7 @@ const Links = ({ areHeaderLinks }: Props) => {
 					linkText="Academics"
 					twClasses={
 						pathName === '/academics'
-							? 'text-bold bg-purple-500'
+							? 'text-bold bg-purple-500 border border-zinc-900'
 							: ''
 					}
 				></LinkItem>
@@ -48,7 +50,7 @@ const Links = ({ areHeaderLinks }: Props) => {
 					linkText="Projects"
 					twClasses={
 						pathName === '/projects'
-							? 'text-bold bg-purple-500'
+							? 'text-bold bg-purple-500 border-2 border-zinc-900'
 							: ''
 					}
 				></LinkItem>
@@ -58,7 +60,7 @@ const Links = ({ areHeaderLinks }: Props) => {
 					linkText="Hobbies"
 					twClasses={
 						pathName === '/hobbies'
-							? 'text-bold bg-purple-500'
+							? 'text-bold bg-purple-500 border-2 border-zinc-900'
 							: ''
 					}
 				></LinkItem>
