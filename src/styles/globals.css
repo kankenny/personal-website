@@ -12,7 +12,7 @@
 		background-color: theme('colors.zinc.100');
 		border-radius: theme('borderRadius.lg');
 		padding: theme('spacing.6');
-		box-shadow: theme('boxShadow.md');
+		box-shadow: theme('boxShadow.sm');
 		border: theme('colors.zinc.200') 1px solid;
 	}
 
@@ -20,7 +20,7 @@
 		color: theme('colors.zinc.100');
 		user-select: none;
 		background: theme('colors.purple.700');
-		box-shadow: theme('boxShadow.md');
+		box-shadow: theme('boxShadow.sm');
 		border-radius: theme('borderRadius.xl');
 	}
 

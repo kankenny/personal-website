@@ -10,7 +10,7 @@ type Props = {
 
 const Feature = ({ img, title, description, featureType }: Props) => {
 	return (
-		<SectionContainer twClasses="p-20 flex flex-col group">
+		<SectionContainer twClasses="p-5 md:p-20 flex flex-col group">
 			<img
 				src={img}
 				alt={title}
