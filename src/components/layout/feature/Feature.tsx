@@ -18,7 +18,7 @@ const Feature = ({ img, title, description, featureType }: Props) => {
 			/>
 			<div className="p-4 flex flex-col gap-4 cursor-pointer ">
 				<div>
-					<h1 className="text-3xl font-bold capitalize text-purple-500">
+					<h1 className="text-4xl font-bold capitalize text-purple-500">
 						{title}
 					</h1>
 					<h2 className="text-zinc-500 text-sm">
@@ -26,7 +26,7 @@ const Feature = ({ img, title, description, featureType }: Props) => {
 					</h2>
 				</div>
 				<div className="flex justify-between">
-					<p className="max-w-[75%] text-sm">{description}</p>
+					<p className="max-w-[75%] text-lg">{description}</p>
 					<svg
 						stroke="currentColor"
 						fill="currentColor"
