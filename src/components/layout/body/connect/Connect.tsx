@@ -7,8 +7,8 @@ type Props = {
 
 const Connect = ({ connectWithMeText }: Props) => {
 	return (
-		<SectionContainer twClasses="pb-0 bg-zinc-900">
-			<div className="flex flex-col gap-2 p-5 my-16 text-purple-500 py-10 group border-y-2 border-purple-500">
+		<SectionContainer twClasses="bg-zinc-900 pb-0">
+			<div className="flex flex-col gap-2 py-5 my-16 text-purple-500 group border-y-2 border-purple-500">
 				<h1 className="text-3xl font-bold">{connectWithMeText}</h1>
 				<div className="flex items-center cursor-pointer">
 					<p className="max-w-[75%] text-lg group-hover:underline">
