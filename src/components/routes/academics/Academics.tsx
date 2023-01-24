@@ -1,10 +1,10 @@
 import React from 'react'
 
 import Body from '@/components/layout/body/Body'
-import Feature from '@/components/layout/feature/Feature'
+import Feature from '@/components/layout/body/feature/Feature'
 import Banner from '../home/banner/Banner'
 import AcademicSummary from './AcademicSummary'
-import Headline from '@/components/layout/headline/Headline'
+import Headline from '@/components/layout/body/headline/Headline'
 
 const Academics = () => {
 	return (

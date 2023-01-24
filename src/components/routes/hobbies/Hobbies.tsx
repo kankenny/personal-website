@@ -1,7 +1,8 @@
+import React from 'react'
+
 import Body from '@/components/layout/body/Body'
 import Connect from '@/components/layout/body/connect/Connect'
-import Feature from '@/components/layout/feature/Feature'
-import React from 'react'
+import Feature from '@/components/layout/body/feature/Feature'
 import Banner from '../home/banner/Banner'
 import HobbySummary from './HobbySummary'
 

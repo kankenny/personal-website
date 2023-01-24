@@ -1,10 +1,11 @@
+import React from 'react'
+
 import Body from '@/components/layout/body/Body'
 import Connect from '@/components/layout/body/connect/Connect'
-import Feature from '@/components/layout/feature/Feature'
-import Headline from '@/components/layout/headline/Headline'
-import React from 'react'
+import Headline from '@/components/layout/body/headline/Headline'
 import Banner from '../home/banner/Banner'
 import ProjectsSummary from './ProjectsSummary'
+import Feature from '@/components/layout/body/feature/Feature'
 
 const Projects = () => {
 	return (
