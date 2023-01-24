@@ -3,9 +3,9 @@ import React from 'react'
 import Body from '@/components/layout/body/Body'
 import Banner from '../home/banner/Banner'
 import WorksSummary from './WorksSummary'
-import Feature from '@/components/layout/feature/Feature'
 import Connect from '@/components/layout/body/connect/Connect'
-import Headline from '@/components/layout/headline/Headline'
+import Headline from '@/components/layout/body/headline/Headline'
+import Feature from '@/components/layout/body/feature/Feature'
 
 const WorkExperience = () => {
 	return (
