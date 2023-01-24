@@ -4,7 +4,7 @@ import Feature from '@/components/layout/feature/Feature'
 import Headline from '@/components/layout/headline/Headline'
 import React from 'react'
 import Banner from '../home/banner/Banner'
-import ProjectsSummary from './project/ProjectsSummary'
+import ProjectsSummary from './ProjectsSummary'
 
 const Projects = () => {
 	return (

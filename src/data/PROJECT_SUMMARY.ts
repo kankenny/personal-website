@@ -2,7 +2,7 @@ import CardHighlightClass from '@/utils/data-models/CardHighlightClass'
 
 const dummyImage = 'https://unsplash.com/photos/sf_1ZDA1YFw'
 
-export const projectSummaries = [
+const projectSummary = [
 	new CardHighlightClass(
 		dummyImage,
 		'Supplemental Instruction Leader',
@@ -46,3 +46,5 @@ export const projectSummaries = [
 		'Student'
 	),
 ]
+
+export default projectSummary
