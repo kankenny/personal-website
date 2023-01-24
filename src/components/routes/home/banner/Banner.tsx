@@ -18,7 +18,7 @@ const Banner = () => {
 					<div className="px-4 bg-purple-500 rounded-full  min-w-[15em]">
 						<img
 							src={portrait.src}
-							alt="..."
+							alt="Kennette James Basco"
 							className="shadow rounded-full max-h-full w-auto align-middle p-6 pb-0"
 						/>
 					</div>

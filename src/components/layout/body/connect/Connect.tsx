@@ -17,7 +17,7 @@ const Connect = ({ connectWithMeText }: Props) => {
 					<svg
 						stroke="currentColor"
 						fill="currentColor"
-						stroke-width="0"
+						strokeWidth="0"
 						viewBox="0 0 24 24"
 						height="2em"
 						width="2em"
@@ -25,7 +25,7 @@ const Connect = ({ connectWithMeText }: Props) => {
 					>
 						<polyline
 							fill="none"
-							stroke-width="2"
+							strokeWidth="2"
 							points="7 2 17 12 7 22"
 						></polyline>
 					</svg>
