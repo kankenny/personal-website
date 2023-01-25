@@ -7,7 +7,7 @@ type Props = {
 
 const LinkItemsContainer = ({ areHeaderLinks, children }: Props) => {
 	const twClasses = areHeaderLinks
-		? ' space-y-0 space-x-6'
+		? ' space-y-0 space-x-2 md:space-x-6'
 		: ' flex-col space-y-6 space-x-0 md:space-x-6 md:space-y-0 md:flex-row my-auto'
 
 	return (
