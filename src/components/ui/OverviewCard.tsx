@@ -34,7 +34,7 @@ const OverviewCard = ({
 				<p className="mt-1 text-sm text-slate-400">{overview}</p>
 
 				<div className="mt-3 gap-2 flex items-end justify-between text-purple-500">
-					<p>
+					<p className="w-3/4">
 						<span className="text-md font-bold ">
 							{position}
 						</span>
@@ -55,7 +55,6 @@ const OverviewCard = ({
 					>
 						<polyline
 							fill="none"
-							stroke="#000"
 							strokeWidth="2"
 							points="7 2 17 12 7 22"
 						></polyline>
