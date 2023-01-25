@@ -1,12 +1,16 @@
 import React from 'react'
+import Link from 'next/link'
 
+// Components
 import SectionContainer from '@/components/ui/SectionContainer'
 import SectionTitle from '@/components/ui/SectionTitle'
 import OverviewCard from '@/components/ui/OverviewCard'
 
-import workSummary from '@/data/WORK_SUMMARY'
-import Link from 'next/link'
+// Utility Functions
 import convertTextToUrl from '@/utils/lib/convertTextToUrl'
+
+// Hard-coded Data
+import workSummary from '@/data/WORK_SUMMARY'
 
 const Works = () => {
 	return (
@@ -22,13 +26,7 @@ const Works = () => {
 						key={work.title}
 					>
 						<a>
-							<OverviewCard
-								img={work.img}
-								title={work.title}
-								overview={work.overview}
-								workCompany={work.workCompany}
-								position={work.position}
-							/>
+							<OverviewCard entry={work} />
 						</a>
 					</Link>
 				))}

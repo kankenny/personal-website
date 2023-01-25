@@ -1,10 +1,13 @@
 import React from 'react'
 import Link from 'next/link'
 
+// Components
 import OverviewCard from '@/components/ui/OverviewCard'
 
+// Utility Functions
 import convertTextToUrl from '@/utils/lib/convertTextToUrl'
 
+// Hard-coded Data
 import highlightsList from '@/data/HIGHLIGHTS'
 
 const HighlightsList = () => {
@@ -19,14 +22,7 @@ const HighlightsList = () => {
 					legacyBehavior
 				>
 					<a>
-						<OverviewCard
-							img={highlight.img}
-							title={highlight.title}
-							overview={highlight.overview}
-							workCompany={highlight.workCompany}
-							position={highlight.position}
-							key={highlight.title}
-						/>
+						<OverviewCard entry={highlight} />
 					</a>
 				</Link>
 			))}

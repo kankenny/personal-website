@@ -1,10 +1,13 @@
 import React from 'react'
 import Link from 'next/link'
 
+// Components
 import OverviewCard from '@/components/ui/OverviewCard'
 
+// Utility Functions
 import convertTextToUrl from '@/utils/lib/convertTextToUrl'
 
+// Hard Coded Data
 import latestWorkList from '@/data/LATEST_WORK'
 
 const LatestWorkList = () => {
@@ -19,14 +22,7 @@ const LatestWorkList = () => {
 					legacyBehavior
 				>
 					<a>
-						<OverviewCard
-							img={latestWork.img}
-							title={latestWork.title}
-							overview={latestWork.overview}
-							workCompany={latestWork.workCompany}
-							position={latestWork.position}
-							key={latestWork.title}
-						/>
+						<OverviewCard entry={latestWork} />
 					</a>
 				</Link>
 			))}
