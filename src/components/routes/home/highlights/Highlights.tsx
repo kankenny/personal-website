@@ -2,7 +2,7 @@ import React from 'react'
 
 import SectionContainer from '../../../ui/SectionContainer'
 import SectionTitle from '@/components/ui/SectionTitle'
-import LatestWorkList from '../latest-work/LatestWorkList'
+import HighlightsList from './HighlightsList'
 
 const Highlights = () => {
 	return (
@@ -11,7 +11,7 @@ const Highlights = () => {
 				sectionTitle="my proudest achievements"
 				isOdd={false}
 			/>
-			<LatestWorkList></LatestWorkList>
+			<HighlightsList />
 		</SectionContainer>
 	)
 }

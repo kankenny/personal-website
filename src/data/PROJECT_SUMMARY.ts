@@ -5,45 +5,24 @@ const dummyImage = 'https://unsplash.com/photos/sf_1ZDA1YFw'
 const projectSummary = [
 	new CardHighlightClass(
 		dummyImage,
-		'Supplemental Instruction Leader',
-		'Assisted students by conducting biweekly sessions to teach integral calculus',
+		'Morse Code Decoder',
+		'Used a binary search tree to simulate a binary decision to decode morse code into text',
 		'New York Institute of Technology',
-		'Student Tutor'
+		'BS CompSci Student'
 	),
 	new CardHighlightClass(
 		dummyImage,
-		'Undergraduate Research Assistant',
-		'Assisted students by conducting biweekly sessions to teach integral calculus',
-		'New York Institute of Technology',
-		'Student'
+		'Etch-a-Sketch',
+		'Practiced DOM manipulation to trigger the hover event for grid items to draw on a canvas',
+		'The Odin Project',
+		'Learner'
 	),
 	new CardHighlightClass(
 		dummyImage,
-		'Supplemental Instruction Leadera',
-		'Assisted students by conducting biweekly sessions to teach integral calculus',
-		'New York Institute of Technology',
-		'Student Tutor'
-	),
-	new CardHighlightClass(
-		dummyImage,
-		'Undergraduate Research Assistants',
-		'Assisted students by conducting biweekly sessions to teach integral calculus',
-		'New York Institute of Technology',
-		'Student'
-	),
-	new CardHighlightClass(
-		dummyImage,
-		'Supplemental Instruction Leaderd',
-		'Assisted students by conducting biweekly sessions to teach integral calculus',
-		'New York Institute of Technology',
-		'Student Tutor'
-	),
-	new CardHighlightClass(
-		dummyImage,
-		'Undergraduate Research Assistantf',
-		'Assisted students by conducting biweekly sessions to teach integral calculus',
-		'New York Institute of Technology',
-		'Student'
+		'Weather Application',
+		'Applied asynchronous JavaScript to allow queries for weather details on locations',
+		'The Odin Project',
+		'Learner'
 	),
 ]
 
