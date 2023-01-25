@@ -5,45 +5,24 @@ const dummyImage = 'https://unsplash.com/photos/sf_1ZDA1YFw'
 export const hobbySummary = [
 	new CardHighlightClass(
 		dummyImage,
-		'Supplemental Instruction Leader',
-		'Assisted students by conducting biweekly sessions to teach integral calculus',
-		'New York Institute of Technology',
-		'Student Tutor'
+		'Chess',
+		'Bullet - 1038 (Peaked at 1110), Rapid - 1113 (Peaked at 1132)',
+		'Chess.com',
+		'Chess Enthusiast'
 	),
 	new CardHighlightClass(
 		dummyImage,
-		'Undergraduate Research Assistant',
-		'Assisted students by conducting biweekly sessions to teach integral calculus',
-		'New York Institute of Technology',
-		'Student'
+		'Left 4 Dead 2',
+		'Slayed some zombies. Need I say more?',
+		'Zombie land',
+		'Survivor'
 	),
 	new CardHighlightClass(
 		dummyImage,
-		'Supplemental Instruction Leadera',
-		'Assisted students by conducting biweekly sessions to teach integral calculus',
-		'New York Institute of Technology',
-		'Student Tutor'
-	),
-	new CardHighlightClass(
-		dummyImage,
-		'Undergraduate Research Assistants',
-		'Assisted students by conducting biweekly sessions to teach integral calculus',
-		'New York Institute of Technology',
-		'Student'
-	),
-	new CardHighlightClass(
-		dummyImage,
-		'Supplemental Instruction Leaderd',
-		'Assisted students by conducting biweekly sessions to teach integral calculus',
-		'New York Institute of Technology',
-		'Student Tutor'
-	),
-	new CardHighlightClass(
-		dummyImage,
-		'Undergraduate Research Assistantf',
-		'Assisted students by conducting biweekly sessions to teach integral calculus',
-		'New York Institute of Technology',
-		'Student'
+		'Risk of Rain 2',
+		'Fought aliens, collected loot, and managed synergies',
+		'Alien planet',
+		'Survivor'
 	),
 ]
 
