@@ -34,14 +34,14 @@ const OverviewCard = ({
 				<p className="mt-1 text-sm text-slate-400">{overview}</p>
 
 				<div className="mt-3 gap-2 flex items-end justify-between text-purple-500">
-					<p>
+					<div>
 						<span className="text-md font-bold ">
 							{position}
 						</span>
-						<span className="text-xs text-slate-400">
-							{`  @ ${workCompany}`}
+						<span className="text-xs text-slate-400 pl-2">
+							{`${workCompany}`}
 						</span>
-					</p>
+					</div>
 
 					<svg
 						stroke="currentColor"
@@ -99,14 +99,14 @@ export default OverviewCard
 // 							{overview}
 // 						</p>
 // 						<div className="mt-3 gap-2 flex items-end justify-between text-purple-500">
-// 							<p className="w-3/4">
+// 							<di className="w-3/4">
 // 								<span className="text-md font-bold ">
 // 									{position}
 // 								</span>
 // 								<span className="text-xs text-slate-400">
 // 									{`  @ ${workCompany}`}
 // 								</span>
-// 							</p>
+// 							</di>
 // 							<svg
 // 								stroke="currentColor"
 // 								fill="currentColor"
