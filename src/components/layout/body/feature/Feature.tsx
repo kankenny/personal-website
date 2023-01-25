@@ -16,7 +16,7 @@ const Feature = ({ img, title, description, featureType }: Props) => {
 				alt={title}
 				className="bg-blue-500 mx-auto w-full h-auto border border-zinc-700 rounded-lg shadow-md duration-200 cursor-pointer"
 			/>
-			<div className="p-4 flex flex-col gap-4 cursor-pointer ">
+			<div className="py-4 flex flex-col gap-4 cursor-pointer ">
 				<div>
 					<h1 className="text-4xl font-bold capitalize text-purple-500">
 						{title}
@@ -34,7 +34,7 @@ const Feature = ({ img, title, description, featureType }: Props) => {
 						viewBox="0 0 24 24"
 						height="4em"
 						width="4em"
-						className="opacity-0 group-hover:opacity-100 duration-200"
+						className="opacity-0 group-hover:opacity-100 duration-200 text-purple-500"
 						xmlns="http://www.w3.org/2000/svg"
 					>
 						<polyline
