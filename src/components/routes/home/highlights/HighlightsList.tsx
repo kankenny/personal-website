@@ -5,27 +5,27 @@ import OverviewCard from '@/components/ui/OverviewCard'
 
 import convertTextToUrl from '@/utils/lib/convertTextToUrl'
 
-import latestWorkList from '@/data/LATEST_WORK'
+import highlightsList from '@/data/HIGHLIGHTS'
 
-const LatestWorkList = () => {
+const HighlightsList = () => {
 	return (
 		<div className="mx-auto grid grid-cols-1 gap-6 py-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-			{latestWorkList.map((latestWork) => (
+			{highlightsList.map((highlight) => (
 				<Link
-					key={latestWork.title}
+					key={highlight.title}
 					href={`/work-experience/${convertTextToUrl(
-						latestWork.title
+						highlight.title
 					)}`}
 					legacyBehavior
 				>
 					<a>
 						<OverviewCard
-							img={latestWork.img}
-							title={latestWork.title}
-							overview={latestWork.overview}
-							workCompany={latestWork.workCompany}
-							position={latestWork.position}
-							key={latestWork.title}
+							img={highlight.img}
+							title={highlight.title}
+							overview={highlight.overview}
+							workCompany={highlight.workCompany}
+							position={highlight.position}
+							key={highlight.title}
 						/>
 					</a>
 				</Link>
@@ -34,4 +34,4 @@ const LatestWorkList = () => {
 	)
 }
 
-export default LatestWorkList
+export default HighlightsList
