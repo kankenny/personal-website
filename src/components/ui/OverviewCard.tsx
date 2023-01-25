@@ -55,7 +55,6 @@ const OverviewCard = ({
 					>
 						<polyline
 							fill="none"
-							stroke="#000"
 							strokeWidth="2"
 							points="7 2 17 12 7 22"
 						></polyline>
