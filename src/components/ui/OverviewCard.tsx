@@ -1,24 +1,15 @@
 // Layout component for features listed in the child directory of the root page
 
+import CardHighlightClass from '@/utils/data-models/CardHighlightClass'
 import React from 'react'
 
 import Card from './Card'
 
 type Props = {
-	img: string
-	title: string
-	overview: string
-	workCompany: string
-	position: string
+	entry: CardHighlightClass
 }
 
-const OverviewCard = ({
-	img,
-	title,
-	overview,
-	workCompany,
-	position,
-}: Props) => {
+const OverviewCard = ({ entry }: Props) => {
 	return (
 		<Card twClasses="rounded-xl bg-white p-3 hover:shadow-xl hover:transform hover:scale-105 duration-300 group cursor-pointer">
 			<div className="relative flex items-end overflow-hidden rounded-xl">
@@ -26,20 +17,22 @@ const OverviewCard = ({
 					src="https://images.unsplash.com/photo-1539185441755-769473a23570?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"
 					alt="Hotel Photo"
 				/>
-				{/* <img src={img} /> */}
+				{/* <img src={entry.img} /> */}
 			</div>
 
 			<div className="mt-1 p-2">
-				<h2 className="text-slate-700">{title}</h2>
-				<p className="mt-1 text-sm text-slate-400">{overview}</p>
+				<h2 className="text-slate-700">{entry.title}</h2>
+				<p className="mt-1 text-sm text-slate-400">
+					{entry.overview}
+				</p>
 
 				<div className="mt-3 gap-2 flex items-end justify-between text-purple-500">
 					<div>
 						<span className="text-md font-bold ">
-							{position}
+							{entry.position}
 						</span>
 						<span className="text-xs text-slate-400 pl-2">
-							{`${workCompany}`}
+							{`${entry.workCompany}`}
 						</span>
 					</div>
 

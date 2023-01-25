@@ -1,11 +1,16 @@
 import React from 'react'
+import Link from 'next/link'
 
+// Components
 import SectionContainer from '@/components/ui/SectionContainer'
 import SectionTitle from '@/components/ui/SectionTitle'
 import OverviewCard from '@/components/ui/OverviewCard'
-import projectSummary from '@/data/PROJECT_SUMMARY'
-import Link from 'next/link'
+
+// Utility Functions
 import convertTextToUrl from '@/utils/lib/convertTextToUrl'
+
+// Hard-coded data
+import projectSummary from '@/data/PROJECT_SUMMARY'
 
 const ProjectsSummary = () => {
 	return (
@@ -21,14 +26,7 @@ const ProjectsSummary = () => {
 						key={project.title}
 					>
 						<a>
-							<OverviewCard
-								img={project.img}
-								title={project.title}
-								overview={project.overview}
-								workCompany={project.workCompany}
-								position={project.position}
-								key={project.title}
-							/>
+							<OverviewCard entry={project} />
 						</a>
 					</Link>
 				))}
