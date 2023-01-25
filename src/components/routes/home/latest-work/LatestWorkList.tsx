@@ -1,8 +1,7 @@
-import SectionContainer from '@/components/ui/SectionContainer'
-import CardHighlightClass from '@/utils/data-models/CardHighlightClass'
 import React from 'react'
 
-import LatestWorkItem from './LatestWorkItem'
+import OverviewCard from '@/components/ui/OverviewCard'
+import CardHighlightClass from '@/utils/data-models/CardHighlightClass'
 
 const latestWorkList = [
 	new CardHighlightClass(
@@ -32,7 +31,7 @@ const LatestWorkList = () => {
 	return (
 		<div className="mx-auto grid grid-cols-1 gap-6 py-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
 			{latestWorkList.map((latestWork) => (
-				<LatestWorkItem
+				<OverviewCard
 					img={latestWork.img}
 					title={latestWork.title}
 					overview={latestWork.overview}
