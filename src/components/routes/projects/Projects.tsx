@@ -11,15 +11,12 @@ const Projects = () => {
 		<Body>
 			<Headline
 				headlineTitle="A synergy of logic & creativity"
-				description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore magni, dignissimos explicabo odit iste, suscipit laborum eos veritatis aut ipsam soluta, alias sapiente! Numquam eaque laudantium ad molestias dicta aliquid"
+				description="Discover the synergy of logic and creativity in my web development projects. See how technical expertise and artistic vision come together to create innovative and effective solutions."
 			/>
 			<Feature
 				img="https://images.unsplash.com/photo-1539185441755-769473a23570?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"
 				title="StreetEasier"
-				description="
-	Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum magnam ullam rem vel exercitationem voluptas itaque unde laboriosam cum asperiores! 
-	Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum magnam ullam rem vel exercitationem voluptas itaque unde laboriosam cum asperiores! 
-	Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum magnam ullam rem vel exercitationem voluptas itaque unde laboriosam cum asperiores!"
+				description="StreetEasier is a fullstack web platform that helps users to find and match with potential roommates for apartments, in an effort to alleviate the housing crisis. The platform allows users to search for available apartments, as well as create and manage their own listings. It also includes a matching system that connects potential roommates based on their preferences and requirements. The project was developed by a team of 5 people, with the goal of making the housing search process easier and more efficient for everyone involved."
 				featureType="Fullstack web application"
 			/>
 			<Connect connectWithMeText="Interested in collaborating with me?" />

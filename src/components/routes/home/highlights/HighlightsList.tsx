@@ -12,7 +12,7 @@ import highlightsList from '@/data/HIGHLIGHTS'
 
 const HighlightsList = () => {
 	return (
-		<div className="mx-auto grid grid-cols-1 gap-6 py-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+		<div className="mx-auto grid grid-cols-1 gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 auto-rows-auto">
 			{highlightsList.map((highlight) => (
 				<Link
 					key={highlight.title}

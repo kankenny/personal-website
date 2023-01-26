@@ -11,7 +11,7 @@ type Props = {
 
 const OverviewCard = ({ entry }: Props) => {
 	return (
-		<Card twClasses="rounded-xl bg-white p-2 hover:shadow-xl hover:transform hover:scale-105 duration-300 group cursor-pointer">
+		<Card twClasses="rounded-xl bg-white p-2 hover:shadow-xl hover:transform hover:scale-105 duration-300 group cursor-pointer min-h-[28em]">
 			<div className="flex items-end overflow-hidden rounded-xl">
 				<img
 					src="https://images.unsplash.com/photo-1539185441755-769473a23570?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"
@@ -31,7 +31,7 @@ const OverviewCard = ({ entry }: Props) => {
 					</div>
 				</div>
 
-				<div className="gap-2 flex justify-between items-center text-purple-500 text-sm ">
+				<div className="gap-2 flex justify-between items-center text-purple-500 text-sm">
 					{entry.position && entry.workCompany && (
 						<div>
 							<span>{entry.position}</span>
