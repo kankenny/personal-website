@@ -17,7 +17,7 @@ const AcademicSummary = () => {
 		<SectionContainer twClasses="py-20">
 			<SectionTitle sectionTitle="Other academic achievements" />
 			<div className="mx-auto grid grid-cols-1 gap-6 py-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-				{academicSummary.map((academic) => (
+				{academicSummary.map((academic, index) => (
 					<Link
 						legacyBehavior
 						href={`/academics/${convertTextToUrl(
