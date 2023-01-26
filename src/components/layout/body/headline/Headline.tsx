@@ -9,7 +9,7 @@ type Props = {
 
 const Headline = ({ headlineTitle, description, img }: Props) => {
 	return (
-		<SectionContainer twClasses="pb-0 p-5 md:p-20">
+		<SectionContainer twClasses="pb-0 p-5 md:p-20 min-h-[32em]">
 			<div className="flex flex-col md:flex-row">
 				<div className="flex flex-col flex-grow w-full md:w-[45%]">
 					<h1 className="border-b border-gray-600 text-5xl capitalize pb-4">
