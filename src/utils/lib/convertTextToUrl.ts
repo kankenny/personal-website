@@ -1,7 +1,8 @@
 const convertTextToUrl = (text: string) => {
 	const lowerCaseText = text.toLowerCase()
 	const wordArr = lowerCaseText.split(' ')
-	const hyphenatedText = wordArr.join('-')
+	const wordArrWithoutHyphen = wordArr.filter((w) => w !== '-')
+	const hyphenatedText = wordArrWithoutHyphen.join('-')
 	return hyphenatedText
 }
 
