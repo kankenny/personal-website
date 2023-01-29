@@ -1,9 +1,9 @@
 import React from 'react'
 
-import UndergraduateResearchAssistantMachineLearningDetail from '@/components/routes/work-experience/work-experience-routes/UndergraduateResearchAssistantMachineLearningDetail'
+import UndergraduateResearchAssistantPhysicsDetail from '@/components/routes/work-experience/work-experience-routes/UndergraduateResearchAssistantPhysicsDetail'
 
 const UndergraduateResearchAssistantMachineLearning = () => {
-	return <UndergraduateResearchAssistantMachineLearningDetail />
+	return <UndergraduateResearchAssistantPhysicsDetail />
 }
 
 export default UndergraduateResearchAssistantMachineLearning
