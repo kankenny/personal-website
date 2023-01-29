@@ -9,13 +9,7 @@ const Left4Dead2Detail = () => {
 	return (
 		<Detail title="Left 4 Dead 2">
 			{details.map((detail, index) => {
-				return (
-					<DetailSection
-						key={index}
-						detail={detail}
-						workType="projects"
-					/>
-				)
+				return <DetailSection key={index} detail={detail} />
 			})}
 		</Detail>
 	)

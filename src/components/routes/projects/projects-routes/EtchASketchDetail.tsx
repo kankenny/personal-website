@@ -9,13 +9,7 @@ const EtchASketchDetail = () => {
 	return (
 		<Detail title="Etch-a-Sketch">
 			{details.map((detail, index) => {
-				return (
-					<DetailSection
-						key={index}
-						detail={detail}
-						workType="projects"
-					/>
-				)
+				return <DetailSection key={index} detail={detail} />
 			})}
 		</Detail>
 	)

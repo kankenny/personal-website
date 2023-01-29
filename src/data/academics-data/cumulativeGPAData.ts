@@ -1,29 +1,12 @@
-const dummyImage = 'https://unsplash.com/photos/sf_1ZDA1YFw'
+import CumulativeGPA from '../../public/academics/cumulative-gpa/CumulativeGPA.png'
 
 const details = [
 	{
-		title: 'Test',
-		img: dummyImage,
-		description:
-			'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis quidem numquam quod omnis reiciendis necessitatibus reprehenderit corporis optio consequuntur possimus ipsa accusantium labore totam doloribus dolorem iste architecto odit eos dolore vitae, facere quo nisi at expedita! Iure nisi quidem adipisci hic et veniam dicta vero? Unde sed error facere.',
-	},
-	{
-		title: 'Test',
-		img: dummyImage,
-		description:
-			'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis quidem numquam quod omnis reiciendis necessitatibus reprehenderit corporis optio consequuntur possimus ipsa accusantium labore totam doloribus dolorem iste architecto odit eos dolore vitae, facere quo nisi at expedita! Iure nisi quidem adipisci hic et veniam dicta vero? Unde sed error facere.',
-	},
-	{
-		title: 'Test',
-		img: dummyImage,
-		description:
-			'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis quidem numquam quod omnis reiciendis necessitatibus reprehenderit corporis optio consequuntur possimus ipsa accusantium labore totam doloribus dolorem iste architecto odit eos dolore vitae, facere quo nisi at expedita! Iure nisi quidem adipisci hic et veniam dicta vero? Unde sed error facere.',
-	},
-	{
-		title: 'Test',
-		img: dummyImage,
-		description:
-			'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis quidem numquam quod omnis reiciendis necessitatibus reprehenderit corporis optio consequuntur possimus ipsa accusantium labore totam doloribus dolorem iste architecto odit eos dolore vitae, facere quo nisi at expedita! Iure nisi quidem adipisci hic et veniam dicta vero? Unde sed error facere.',
+		title: 'Passionate Learning due to Interest',
+		img: CumulativeGPA,
+		description: `As a computer science major at NYIT Manhattan, I am proud to have maintained a CGPA of 3.94/4.00 in my senior year while balancing multiple projects and working part-time jobs. This achievement showcases my ability to prioritize and manage my time effectively, skills that are essential for success in both academics and the professional world.
+
+			I believe that this achievement is a testament to my determination and hard work. I understand the importance of education and am dedicated to consistently striving for excellence in my studies. This dedication, combined with my strong work ethic, will serve me well as I embark on my future career.`,
 	},
 ]
 

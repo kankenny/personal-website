@@ -1,29 +1,11 @@
-const dummyImage = 'https://unsplash.com/photos/sf_1ZDA1YFw'
+import Main from '../../public/work-experience/supplemental-instruction-leader/SILeader.jpg'
 
 const details = [
 	{
-		title: 'Test',
-		img: dummyImage,
+		title: 'Empowering Others with Knowledge',
+		img: Main,
 		description:
-			'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis quidem numquam quod omnis reiciendis necessitatibus reprehenderit corporis optio consequuntur possimus ipsa accusantium labore totam doloribus dolorem iste architecto odit eos dolore vitae, facere quo nisi at expedita! Iure nisi quidem adipisci hic et veniam dicta vero? Unde sed error facere.',
-	},
-	{
-		title: 'Test',
-		img: dummyImage,
-		description:
-			'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis quidem numquam quod omnis reiciendis necessitatibus reprehenderit corporis optio consequuntur possimus ipsa accusantium labore totam doloribus dolorem iste architecto odit eos dolore vitae, facere quo nisi at expedita! Iure nisi quidem adipisci hic et veniam dicta vero? Unde sed error facere.',
-	},
-	{
-		title: 'Test',
-		img: dummyImage,
-		description:
-			'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis quidem numquam quod omnis reiciendis necessitatibus reprehenderit corporis optio consequuntur possimus ipsa accusantium labore totam doloribus dolorem iste architecto odit eos dolore vitae, facere quo nisi at expedita! Iure nisi quidem adipisci hic et veniam dicta vero? Unde sed error facere.',
-	},
-	{
-		title: 'Test',
-		img: dummyImage,
-		description:
-			'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis quidem numquam quod omnis reiciendis necessitatibus reprehenderit corporis optio consequuntur possimus ipsa accusantium labore totam doloribus dolorem iste architecto odit eos dolore vitae, facere quo nisi at expedita! Iure nisi quidem adipisci hic et veniam dicta vero? Unde sed error facere.',
+			'As a Supplemental Instruction Leader at NYIT Manhattan Campus, I guide students in mastering integral calculus by teaching them various integration techniques such as substitution, integration by parts, partial fraction decomposition and more. In addition, I highlight the practical applications of integrals, including finding the area under and between curves, calculating volume, and solving problems in physics and engineering. My aim is to bring clarity to this often challenging subject, enabling students to not just memorize formulas, but truly understand and appreciate the power of integrals.',
 	},
 ]
 
