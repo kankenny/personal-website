@@ -33,7 +33,7 @@ const StreetEasierDetail = () => {
 	]
 
 	return (
-		<Detail title="Test">
+		<Detail title="StreetEasier">
 			{details.map((detail, index) => {
 				return (
 					<DetailSection

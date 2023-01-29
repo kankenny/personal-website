@@ -33,7 +33,7 @@ const MorseCodeDecoderDetail = () => {
 	]
 
 	return (
-		<Detail title="Test">
+		<Detail title="Morse Code Decoder">
 			{details.map((detail, index) => {
 				return (
 					<DetailSection

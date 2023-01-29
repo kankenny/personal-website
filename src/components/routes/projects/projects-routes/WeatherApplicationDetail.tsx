@@ -33,7 +33,7 @@ const WeatherApplicationDetail = () => {
 	]
 
 	return (
-		<Detail title="Test">
+		<Detail title="Weather Application">
 			{details.map((detail, index) => {
 				return (
 					<DetailSection

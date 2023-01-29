@@ -33,7 +33,7 @@ const FactorioDetail = () => {
 	]
 
 	return (
-		<Detail title="Test">
+		<Detail title="Factorio">
 			{details.map((detail, index) => {
 				return (
 					<DetailSection

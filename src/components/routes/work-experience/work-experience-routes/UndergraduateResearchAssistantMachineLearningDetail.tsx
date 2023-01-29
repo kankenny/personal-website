@@ -33,7 +33,7 @@ const UndergraduateResearchAssistantMachineLearningDetail = () => {
 	]
 
 	return (
-		<Detail title="Test">
+		<Detail title="Undergraduate Research Assistant - Machine Learning">
 			{details.map((detail, index) => {
 				return (
 					<DetailSection

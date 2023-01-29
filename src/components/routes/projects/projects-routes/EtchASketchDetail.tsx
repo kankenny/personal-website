@@ -33,7 +33,7 @@ const EtchASketchDetail = () => {
 	]
 
 	return (
-		<Detail title="Test">
+		<Detail title="Etch-a-Sketch">
 			{details.map((detail, index) => {
 				return (
 					<DetailSection
