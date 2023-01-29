@@ -1,29 +1,10 @@
-const dummyImage = 'https://unsplash.com/photos/sf_1ZDA1YFw'
+import Main from '../../public/hobbies/chess/Chess.png'
 
 const details = [
 	{
-		title: 'Test',
-		img: dummyImage,
-		description:
-			'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis quidem numquam quod omnis reiciendis necessitatibus reprehenderit corporis optio consequuntur possimus ipsa accusantium labore totam doloribus dolorem iste architecto odit eos dolore vitae, facere quo nisi at expedita! Iure nisi quidem adipisci hic et veniam dicta vero? Unde sed error facere.',
-	},
-	{
-		title: 'Test',
-		img: dummyImage,
-		description:
-			'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis quidem numquam quod omnis reiciendis necessitatibus reprehenderit corporis optio consequuntur possimus ipsa accusantium labore totam doloribus dolorem iste architecto odit eos dolore vitae, facere quo nisi at expedita! Iure nisi quidem adipisci hic et veniam dicta vero? Unde sed error facere.',
-	},
-	{
-		title: 'Test',
-		img: dummyImage,
-		description:
-			'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis quidem numquam quod omnis reiciendis necessitatibus reprehenderit corporis optio consequuntur possimus ipsa accusantium labore totam doloribus dolorem iste architecto odit eos dolore vitae, facere quo nisi at expedita! Iure nisi quidem adipisci hic et veniam dicta vero? Unde sed error facere.',
-	},
-	{
-		title: 'Test',
-		img: dummyImage,
-		description:
-			'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis quidem numquam quod omnis reiciendis necessitatibus reprehenderit corporis optio consequuntur possimus ipsa accusantium labore totam doloribus dolorem iste architecto odit eos dolore vitae, facere quo nisi at expedita! Iure nisi quidem adipisci hic et veniam dicta vero? Unde sed error facere.',
+		title: 'Chess Dude',
+		img: Main,
+		description: `As a chess enthusiast, I'm always striving to better my skills and become a stronger player. The feeling of outsmarting your opponent is truly unmatched. While my current ratings of 1063 in bullet and 1113 in rapid may not be the highest, I never stop pushing myself to improve. Every move I make, every game I play, I'm constantly learning and growing as a player. It's a challenging and rewarding journey, and I love every moment of it.`,
 	},
 ]
 

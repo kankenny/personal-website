@@ -9,13 +9,7 @@ const StreetEasierDetail = () => {
 	return (
 		<Detail title="StreetEasier">
 			{details.map((detail, index) => {
-				return (
-					<DetailSection
-						key={index}
-						detail={detail}
-						workType="projects"
-					/>
-				)
+				return <DetailSection key={index} detail={detail} />
 			})}
 		</Detail>
 	)

@@ -3,7 +3,7 @@ import React from 'react'
 import SectionContainer from '../../../ui/SectionContainer'
 import BannerDescription from './BannerDescription'
 
-import portrait from '../../../../assets/home/portrait.png'
+import portrait from '../../../../public/home/portrait.png'
 
 const Banner = () => {
 	return (
