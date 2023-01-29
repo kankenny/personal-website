@@ -33,7 +33,7 @@ const CumulativeGPADetail = () => {
 	]
 
 	return (
-		<Detail title="Test">
+		<Detail title="3.94 Cumulative GPA">
 			{details.map((detail, index) => {
 				return (
 					<DetailSection

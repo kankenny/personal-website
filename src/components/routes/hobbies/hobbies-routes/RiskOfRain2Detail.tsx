@@ -33,7 +33,7 @@ const RiskOfRain2Detail = () => {
 	]
 
 	return (
-		<Detail title="Test">
+		<Detail title="Risk of Rain 2">
 			{details.map((detail, index) => {
 				return (
 					<DetailSection

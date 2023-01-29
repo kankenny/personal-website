@@ -33,7 +33,7 @@ const SupplementalInstructionLeaderDetail = () => {
 	]
 
 	return (
-		<Detail title="Test">
+		<Detail title="Supplemental Instruction Leader - Calculus II">
 			{details.map((detail, index) => {
 				return (
 					<DetailSection

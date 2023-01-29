@@ -33,7 +33,7 @@ const Left4Dead2Detail = () => {
 	]
 
 	return (
-		<Detail title="Test">
+		<Detail title="Left 4 Dead 2">
 			{details.map((detail, index) => {
 				return (
 					<DetailSection
