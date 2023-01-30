@@ -19,7 +19,7 @@ const DetailSection = ({ detail }: Props) => {
 					src={detail.img}
 					alt={detail.title}
 					className="w-full rounded-lg shadow-lg"
-					quality="100"
+					quality={100}
 				/>
 				<div className="w-3/4 mx-auto space-y-10">
 					<h1 className="text-2xl md:text-3xl font-bold mb-4">
