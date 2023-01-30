@@ -9,13 +9,7 @@ const CumulativeGPADetail = () => {
 	return (
 		<Detail title="3.94 Cumulative GPA">
 			{details.map((detail, index) => {
-				return (
-					<DetailSection
-						key={index}
-						detail={detail}
-						workType="projects"
-					/>
-				)
+				return <DetailSection key={index} detail={detail} />
 			})}
 		</Detail>
 	)

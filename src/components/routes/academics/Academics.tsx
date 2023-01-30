@@ -1,14 +1,20 @@
 import React from 'react'
+import Link from 'next/link'
+import { useRouter } from 'next/router'
 
 import Body from '@/components/layout/body/Body'
 import Feature from '@/components/layout/body/feature/Feature'
 import AcademicSummary from './AcademicSummary'
 import Headline from '@/components/layout/body/headline/Headline'
-import Link from 'next/link'
+import Breadcrumbs from '@/components/layout/body/breadcrumbs/Breadcrumbs'
 
 const Academics = () => {
+	const router = useRouter()
+	const pathName = router.pathname
+
 	return (
 		<Body>
+			<Breadcrumbs fullPath={pathName} />
 			<Headline
 				headlineTitle="A showcase of passion & interest"
 				description="Discover my academic achievements and see how I turned my passion into a reality. Understand how my interests have guided my educational journey and how they can be an asset to your organization."
