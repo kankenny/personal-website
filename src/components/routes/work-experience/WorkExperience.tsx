@@ -1,4 +1,6 @@
 import React from 'react'
+import { useRouter } from 'next/router'
+import Link from 'next/link'
 
 // Components
 import Body from '@/components/layout/body/Body'
@@ -6,11 +8,15 @@ import WorksSummary from './WorksSummary'
 import Connect from '@/components/layout/body/connect/Connect'
 import Headline from '@/components/layout/body/headline/Headline'
 import Feature from '@/components/layout/body/feature/Feature'
-import Link from 'next/link'
+import Breadcrumbs from '@/components/layout/body/breadcrumbs/Breadcrumbs'
 
 const WorkExperience = () => {
+	const router = useRouter()
+	const pathName = router.pathname
+
 	return (
 		<Body>
+			<Breadcrumbs fullPath={pathName} />
 			<Headline
 				headlineTitle="expression of knowledge & determination"
 				description="Explore my professional journey and witness the results of my dedication and hard work. Experience the embodiment of my skills and passion in my work experience and see how I can bring value to your organization."
