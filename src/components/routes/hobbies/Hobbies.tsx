@@ -31,7 +31,7 @@ const Hobbies = () => {
 					/>
 				</a>
 			</Link>
-			<HobbySummary />
+			<HobbySummary excludeTitle="Factorio" />
 			<Connect connectWithMeText="Let's connect to explore our passions together" />
 		</Body>
 	)

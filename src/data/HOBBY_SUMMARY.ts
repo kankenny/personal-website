@@ -1,8 +1,17 @@
+import Factorio from '../public/hobbies/factorio/Factoriogif.gif'
 import Chess from '../public/hobbies/chess/Chess.png'
 import Left4Dead2 from '../public/hobbies/left4dead2/Left4Dead2Main.jpg'
 import RiskOfRain2 from '../public/hobbies/riskofrain2/RoR2End.png'
 
 const hobbySummary = [
+	{
+		img: Factorio,
+		title: 'Factorio',
+		overview:
+			'Constructed a base with features that allow scaling such as main bus and robotics',
+		workCompany: 'Factorio',
+		position: 'Engineer',
+	},
 	{
 		img: Chess,
 		title: 'Chess',

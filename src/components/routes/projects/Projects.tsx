@@ -33,7 +33,7 @@ const Projects = () => {
 				</a>
 			</Link>
 			<Connect connectWithMeText="Interested in collaborating with me?" />
-			<ProjectsSummary />
+			<ProjectsSummary excludeTitle="StreetEasier" />
 		</Body>
 	)
 }

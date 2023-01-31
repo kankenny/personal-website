@@ -31,7 +31,7 @@ const Academics = () => {
 					/>
 				</a>
 			</Link>
-			<AcademicSummary />
+			<AcademicSummary excludeTitle="3.94 Cumulative GPA" />
 		</Body>
 	)
 }
