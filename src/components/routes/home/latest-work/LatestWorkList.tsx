@@ -16,7 +16,7 @@ const LatestWorkList = () => {
 			{latestWorkList.map((latestWork) => (
 				<Link
 					key={latestWork.title}
-					href={`/work-experience/${convertTextToUrl(
+					href={`${latestWork.workType}/${convertTextToUrl(
 						latestWork.title
 					)}`}
 					legacyBehavior

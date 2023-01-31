@@ -8,6 +8,8 @@ import AcademicSummary from './AcademicSummary'
 import Headline from '@/components/layout/body/headline/Headline'
 import Breadcrumbs from '@/components/layout/body/breadcrumbs/Breadcrumbs'
 
+import CumulativeGPA from '../../../public/academics/cumulative-gpa/CumulativeGPA.png'
+
 const Academics = () => {
 	const router = useRouter()
 	const pathName = router.pathname
@@ -22,7 +24,7 @@ const Academics = () => {
 			<Link href={`academics/3.94-cumulative-gpa`} legacyBehavior>
 				<a href="">
 					<Feature
-						img="https://images.unsplash.com/photo-1539185441755-769473a23570?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"
+						img={CumulativeGPA}
 						title="3.94 Cumulative GPA"
 						description="As a Presidential Scholar awardee, I am proud to have achieved a 3.94 GPA while studying computer science at the New York Institute of Technology. My academic performance is a reflection of my dedication to my studies and my ability to excel in a challenging academic environment. In addition to my coursework, I have also pursued extracurricular interests in machine learning and research, further demonstrating my commitment to my field and my desire to stay current with the latest advancements in technology. I believe that my achievements can bring value to an organization looking for a highly motivated and skilled computer science professional."
 						featureType="Grades"

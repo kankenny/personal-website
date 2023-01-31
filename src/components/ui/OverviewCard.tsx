@@ -1,40 +1,48 @@
 // Layout component for features listed in the child directory of the root page
 
 import CardHighlightClass from '@/utils/data-models/CardHighlightClass'
+import Image, { StaticImageData } from 'next/image'
 import React from 'react'
 
 import Card from './Card'
 
 type Props = {
-	entry: CardHighlightClass
+	entry: {
+		img: StaticImageData
+		title: string
+		overview: string
+		workCompany: string
+		position: string
+		date?: string
+	}
 }
 
 const OverviewCard = ({ entry }: Props) => {
 	return (
-		<Card twClasses="rounded-xl bg-white p-2 hover:shadow-xl hover:transform hover:scale-105 duration-300 group cursor-pointer min-h-[28em]">
-			<div className="flex items-end overflow-hidden rounded-xl">
-				<img
-					src="https://images.unsplash.com/photo-1539185441755-769473a23570?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"
+		<Card twClasses="rounded-xl bg-white p-2 hover:shadow-xl hover:transform hover:scale-105 duration-200 group cursor-pointer min-h-[30em] flex flex-col justify-between">
+			<div className="space-y-2">
+				<Image
+					src={entry.img}
 					alt="Hotel Photo"
+					className="h-64 object-cover w-full overflow-hidden rounded-xl shadow-md"
 				/>
-				{/* <img src={entry.img} /> */}
+				<h2 className="text-xl font-bold text-purple-500">
+					{entry.title}
+				</h2>
 			</div>
-
-			<div className="mt-1 p-2">
+			<div>
 				<div className="pb-2">
-					<h2 className="text-xl font-bold text-purple-500 pb-3 border-b-slate-400 border-b">
-						{entry.title}
-					</h2>
-					<div className="mt-1 text-sm pt-3 text-slate-400 flex justify-between">
+					<div className="mt-1 text-sm pt-3 text-black flex justify-between">
 						<p className="pr-4">{entry.overview}</p>
-						<p>{'Apr 202'}</p>
+						{entry.date && <p>{entry.date}</p>}
 					</div>
 				</div>
-
-				<div className="gap-2 flex justify-between items-center text-purple-500 text-sm">
+				<div className="gap-2 flex justify-between items-center text-purple-500 text-sm border-t-slate-400 border-t mt-2 pt-2">
 					{entry.position && entry.workCompany && (
 						<div>
-							<span>{entry.position}</span>
+							<span className="font-bold">
+								{entry.position}
+							</span>
 							<span className="text-slate-400 pl-1">
 								{`@${entry.workCompany}`}
 							</span>

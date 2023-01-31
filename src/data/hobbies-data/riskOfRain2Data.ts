@@ -10,7 +10,7 @@ const details = [
 	{
 		title: 'Survivor Becoming the Hunter',
 		img: End,
-		description: `As a fan of Risk of Rain 2, I love how collecting items and managing synergies can make you feel incredibly powerful in the game. The items you collect throughout each run can greatly impact your survivor's abilities and stats, making every run unique and challenging. The satisfaction of discovering new item combinations and strategies is what keeps me coming back for more. The thrill of taking on tougher and tougher enemies with increasing power is truly exhilarating.`,
+		description: `One of the best aspects of this game is how collecting items and managing synergies can make me feel incredibly powerful. The items I collect throughout each run can greatly impact my survivor's abilities and stats, making every run unique and challenging. The satisfaction of discovering new item combinations and strategies is what keeps me coming back for more. The thrill of taking on tougher and tougher enemies with increasing power is truly exhilarating.`,
 	},
 ]
 

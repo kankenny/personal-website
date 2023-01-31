@@ -1,15 +1,15 @@
-import CardHighlightClass from '@/utils/data-models/CardHighlightClass'
+import Awardee from '../public/academics/presidential-scholar/PresidentalScholarListAwardee.png'
 
-const dummyImage = 'https://unsplash.com/photos/sf_1ZDA1YFw'
-
-export const academicSummary = [
-	new CardHighlightClass(
-		'https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Orange_tabby_cat_sitting_on_fallen_leaves-Hisashi-01A.jpg/1024px-Orange_tabby_cat_sitting_on_fallen_leaves-Hisashi-01A.jpg',
-		'Presidential Honor List Awardee',
-		'Achieved a cumulative GPA of 3.94/4.00 in my senior year',
-		'New York Institute of Technology',
-		'BS CompSci Student'
-	),
+const academicSummary = [
+	{
+		img: Awardee,
+		title: 'Presidential Honor List Awardee',
+		overview:
+			'Achieved a cumulative GPA of 3.94/4.00 in my senior year studying BS Computer Science ',
+		workCompany: 'New York Institute of Technology',
+		position: 'BS CompSci Student',
+		date: 'Dec 2022',
+	},
 ]
 
 export default academicSummary

@@ -1,22 +1,16 @@
-import CardHighlightClass from '@/utils/data-models/CardHighlightClass'
+import URAssistant from '../public/work-experience/undergrad-research-assistant-machine-learning/URAMachineLearning.jpg'
 
-const dummyImage = 'https://unsplash.com/photos/sf_1ZDA1YFw'
-
-export const workSummary = [
-	new CardHighlightClass(
-		dummyImage,
-		'Undergraduate Research Assistant - Machine Learning',
-		'Applied machine learning models to predict the efficacy of bupropion in treatment of patients with MDD',
-		'New York Institute of Technology',
-		'BS CompSci Student'
-	),
-	new CardHighlightClass(
-		dummyImage,
-		'Undergraduate Research Assistant - Physics',
-		'Used python to experiment with neutrino data to better understand their quantitative properties',
-		'New York Institute of Technology',
-		'BS CompSci Student'
-	),
+const workSummary = [
+	{
+		img: URAssistant,
+		title: 'Undergraduate Research Assistant - Machine Learning',
+		overview:
+			'Applied machine learning models to predict the efficacy of bupropion in treatment of patients with MDD',
+		workCompany: 'New York Institute of Technology',
+		position: 'BS CompSci Student',
+		date: 'May 2022',
+		workType: 'work-experience',
+	},
 ]
 
 export default workSummary

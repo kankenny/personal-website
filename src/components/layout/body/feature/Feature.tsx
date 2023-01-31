@@ -1,8 +1,10 @@
-import SectionContainer from '@/components/ui/SectionContainer'
 import React from 'react'
+import Image, { StaticImageData } from 'next/image'
+
+import SectionContainer from '@/components/ui/SectionContainer'
 
 type Props = {
-	img: string
+	img: StaticImageData | string
 	title: string
 	description: string
 	featureType: string
@@ -11,7 +13,7 @@ type Props = {
 const Feature = ({ img, title, description, featureType }: Props) => {
 	return (
 		<SectionContainer twClasses="p-5 md:p-20 flex flex-col group">
-			<img
+			<Image
 				src={img}
 				alt={title}
 				className="bg-blue-500 mx-auto w-full h-auto border border-zinc-700 rounded-lg shadow-md duration-200 cursor-pointer"
