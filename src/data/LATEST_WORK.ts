@@ -27,7 +27,7 @@ const latestWorkList = [
 		img: Awardee,
 		title: 'Presidential Honor List Awardee',
 		overview:
-			'Achieved a cumulative GPA of 3.94/4.00 in my senior year studying BS Computer Science ',
+			'Received the Presidential Honor List award allowing me to maintain my NYIT scholarship',
 		workCompany: 'New York Institute of Technology',
 		position: 'BS CompSci Student',
 		date: 'Dec 2022',

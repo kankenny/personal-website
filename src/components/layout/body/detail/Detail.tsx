@@ -2,6 +2,10 @@ import React from 'react'
 import { useRouter } from 'next/router'
 
 import AcademicSummary from '@/components/routes/academics/AcademicSummary'
+import HobbySummary from '@/components/routes/hobbies/HobbySummary'
+import ProjectsSummary from '@/components/routes/projects/ProjectsSummary'
+import WorksSummary from '@/components/routes/work-experience/WorksSummary'
+
 import Breadcrumbs from '../breadcrumbs/Breadcrumbs'
 
 type Props = {
@@ -12,6 +16,7 @@ type Props = {
 const Detail = ({ title, children }: Props) => {
 	const router = useRouter()
 	const pathName = router.pathname
+	const parentPath = pathName.split('/')[1]
 
 	return (
 		<div className="flex flex-col gap-10">
@@ -20,7 +25,18 @@ const Detail = ({ title, children }: Props) => {
 				{title}
 			</h1>
 			{children}
-			<AcademicSummary></AcademicSummary>
+			{parentPath === 'academics' && (
+				<AcademicSummary excludeTitle={title} />
+			)}
+			{parentPath === 'work-experience' && (
+				<WorksSummary excludeTitle={title} />
+			)}
+			{parentPath === 'hobbies' && (
+				<HobbySummary excludeTitle={title} />
+			)}
+			{parentPath === 'projects' && (
+				<ProjectsSummary excludeTitle={title} />
+			)}
 		</div>
 	)
 }

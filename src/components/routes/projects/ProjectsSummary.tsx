@@ -12,12 +12,26 @@ import convertTextToUrl from '@/utils/lib/convertTextToUrl'
 // Hard-coded data
 import projectSummary from '@/data/PROJECT_SUMMARY'
 
-const ProjectsSummary = () => {
+type Props = {
+	excludeTitle?: string
+}
+
+const ProjectsSummary = ({ excludeTitle }: Props) => {
+	let filtered: any[] = []
+
+	if (excludeTitle) {
+		filtered = projectSummary.filter(
+			(project) => project.title !== excludeTitle
+		)
+	} else {
+		filtered = projectSummary
+	}
+
 	return (
 		<SectionContainer twClasses="py-20">
 			<SectionTitle sectionTitle="See more of my projects" />
 			<div className="mx-auto grid grid-cols-1 gap-6 py-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-				{projectSummary.map((project) => (
+				{filtered.map((project) => (
 					<Link
 						legacyBehavior
 						href={`/projects/${convertTextToUrl(

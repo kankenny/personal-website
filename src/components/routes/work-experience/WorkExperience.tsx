@@ -37,7 +37,7 @@ const WorkExperience = () => {
 				</a>
 			</Link>
 			<Connect connectWithMeText="Interested in utilizing my skills?" />
-			<WorksSummary />
+			<WorksSummary excludeTitle="Supplemental Instruction Leader" />
 		</Body>
 	)
 }

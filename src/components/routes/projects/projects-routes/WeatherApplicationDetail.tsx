@@ -9,13 +9,7 @@ const WeatherApplicationDetail = () => {
 	return (
 		<Detail title="Weather Application">
 			{details.map((detail, index) => {
-				return (
-					<DetailSection
-						key={index}
-						detail={detail}
-						workType="projects"
-					/>
-				)
+				return <DetailSection key={index} detail={detail} />
 			})}
 		</Detail>
 	)
