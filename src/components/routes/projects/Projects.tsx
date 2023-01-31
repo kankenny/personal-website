@@ -9,6 +9,8 @@ import ProjectsSummary from './ProjectsSummary'
 import Feature from '@/components/layout/body/feature/Feature'
 import Breadcrumbs from '@/components/layout/body/breadcrumbs/Breadcrumbs'
 
+import StreetEasier from '../../../public/projects/streeteasier/StreetEasierLandingPage.png'
+
 const Projects = () => {
 	const router = useRouter()
 	const pathName = router.pathname
@@ -23,7 +25,7 @@ const Projects = () => {
 			<Link href={`projects/streeteasier`} legacyBehavior>
 				<a>
 					<Feature
-						img="https://images.unsplash.com/photo-1539185441755-769473a23570?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"
+						img={StreetEasier}
 						title="StreetEasier"
 						description="StreetEasier is a fullstack web platform that helps users to find and match with potential roommates for apartments, in an effort to alleviate the housing crisis. The platform allows users to search for available apartments, as well as create and manage their own listings. It also includes a matching system that connects potential roommates based on their preferences and requirements. The project was developed by a team of 5 people, with the goal of making the housing search process easier and more efficient for everyone involved."
 						featureType="Fullstack web application"

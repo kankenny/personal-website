@@ -1,5 +1,7 @@
+import { StaticImageData } from 'next/image'
+
 class CardHighlightClass {
-	img: string
+	img: StaticImageData | string
 	title: string
 	overview: string
 	workCompany: string

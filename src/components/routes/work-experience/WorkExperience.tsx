@@ -10,6 +10,8 @@ import Headline from '@/components/layout/body/headline/Headline'
 import Feature from '@/components/layout/body/feature/Feature'
 import Breadcrumbs from '@/components/layout/body/breadcrumbs/Breadcrumbs'
 
+import SILeader from '../../../public/work-experience/supplemental-instruction-leader/SILeader.jpg'
+
 const WorkExperience = () => {
 	const router = useRouter()
 	const pathName = router.pathname
@@ -27,7 +29,7 @@ const WorkExperience = () => {
 			>
 				<a>
 					<Feature
-						img="https://images.unsplash.com/photo-1539185441755-769473a23570?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"
+						img={SILeader}
 						title="Supplemental Instruction Leader"
 						description="I taught integral calculus to a large group of students (over 150) in biweekly sessions. The course covered various techniques of integration, including substitution, integration by parts, partial fractions, and trigonometric substitution. The students learned how to apply these techniques to solve problems related to concepts such as work, volume, and improper integrals. The course also included practice problems and exercises to help students develop their problem-solving skills and deepen their understanding of the material."
 						featureType="Student Tutor"

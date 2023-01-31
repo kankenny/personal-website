@@ -16,7 +16,7 @@ const HighlightsList = () => {
 			{highlightsList.map((highlight) => (
 				<Link
 					key={highlight.title}
-					href={`/work-experience/${convertTextToUrl(
+					href={`${highlight.workType}/${convertTextToUrl(
 						highlight.title
 					)}`}
 					legacyBehavior
