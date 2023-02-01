@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+const colors = require('tailwindcss/colors')
 
 module.exports = {
 	content: [
@@ -11,7 +12,23 @@ module.exports = {
 			serif: ['ui-serif', 'Georgia'],
 			mono: ['ui-monospace', 'SFMono-Regular'],
 		},
-		extend: {},
+		screens: {
+			sm: '480px',
+			md: '768px',
+			lg: '976px',
+			xl: '1440px',
+		},
+		extend: {
+			colors: {
+				main: '#581C87',
+				secondary: '#C084FC',
+				gray: '#64748B',
+				darkGray: '#18181B',
+			},
+			rotate: {
+				360: '360deg',
+			},
+		},
 	},
 	plugins: [],
 }

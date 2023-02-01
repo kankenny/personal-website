@@ -7,15 +7,16 @@ import portrait from '../../../../public/home/portrait.png'
 
 const Banner = () => {
 	return (
-		<SectionContainer twClasses="pb-0 cursor-pointer group bg-zinc-900">
-			<div className="flex flex-col h-[75em] items-center md:flex-row">
+		<SectionContainer twClasses="pb-0 cursor-pointer group bg-black">
+			<div className="flex flex-col-reverse h-[50em] items-center md:flex-row gap-10">
 				{/* <img
 					src={portrait.src}
 					alt="Kennette James Basco"
 					className="w-[25%] hidden md:block"
 				/> */}
+				<BannerDescription />
 				<div className="flex flex-wrap justify-center w-4/12 md:w-6/12  mt-auto md:mt-0">
-					<div className="px-4 bg-purple-500 rounded-full  min-w-[15em]">
+					<div className="px-4 bg-main rounded-full  min-w-[18em]">
 						<img
 							src={portrait.src}
 							alt="Kennette James Basco"
@@ -23,7 +24,6 @@ const Banner = () => {
 						/>
 					</div>
 				</div>
-				<BannerDescription />
 			</div>
 		</SectionContainer>
 	)

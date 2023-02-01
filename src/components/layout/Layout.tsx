@@ -12,7 +12,7 @@ type Props = {
 const Layout = ({ children }: Props) => {
 	return (
 		<div
-			className={`main-web-container flex flex-col min-h-screen ${CHAKRAPETCHFONT.className}`}
+			className={`main-web-container flex flex-col min-h-screen text-black ${CHAKRAPETCHFONT.className}`}
 		>
 			<Header />
 			<main>{children}</main>
