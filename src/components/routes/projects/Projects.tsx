@@ -10,6 +10,7 @@ import Feature from '@/components/layout/body/feature/Feature'
 import Breadcrumbs from '@/components/layout/body/breadcrumbs/Breadcrumbs'
 
 import StreetEasier from '../../../public/projects/streeteasier/StreetEasierLandingPage.png'
+import ProjectsImg from '../../../public/Projects.png'
 
 const Projects = () => {
 	const router = useRouter()
@@ -21,6 +22,7 @@ const Projects = () => {
 			<Headline
 				headlineTitle="A synergy of logic & creativity"
 				description="Discover the synergy of logic and creativity in my web development projects. See how technical expertise and artistic vision come together to create innovative and effective solutions."
+				img={ProjectsImg}
 			/>
 			<Link href={`projects/streeteasier`} legacyBehavior>
 				<a>

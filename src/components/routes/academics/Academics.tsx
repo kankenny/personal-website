@@ -9,6 +9,7 @@ import Headline from '@/components/layout/body/headline/Headline'
 import Breadcrumbs from '@/components/layout/body/breadcrumbs/Breadcrumbs'
 
 import CumulativeGPA from '../../../public/academics/cumulative-gpa/CumulativeGPA.png'
+import AcademicsImg from '../../../public/Academics.png'
 
 const Academics = () => {
 	const router = useRouter()
@@ -20,6 +21,7 @@ const Academics = () => {
 			<Headline
 				headlineTitle="A showcase of passion & interest"
 				description="Discover my academic achievements and see how I turned my passion into a reality. Understand how my interests have guided my educational journey and how they can be an asset to your organization."
+				img={AcademicsImg}
 			/>
 			<Link href={`academics/3.94-cumulative-gpa`} legacyBehavior>
 				<a href="">

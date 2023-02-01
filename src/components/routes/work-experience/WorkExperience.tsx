@@ -11,6 +11,7 @@ import Feature from '@/components/layout/body/feature/Feature'
 import Breadcrumbs from '@/components/layout/body/breadcrumbs/Breadcrumbs'
 
 import SILeader from '../../../public/work-experience/supplemental-instruction-leader/SILeader.jpg'
+import WorkExperienceImg from '../../../public/WorkExperience.png'
 
 const WorkExperience = () => {
 	const router = useRouter()
@@ -22,6 +23,7 @@ const WorkExperience = () => {
 			<Headline
 				headlineTitle="expression of knowledge & determination"
 				description="Explore my professional journey and witness the results of my dedication and hard work. Experience the embodiment of my skills and passion in my work experience and see how I can bring value to your organization."
+				img={WorkExperienceImg}
 			/>
 			<Link
 				href={`work-experience/supplemental-instruction-leader`}

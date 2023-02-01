@@ -10,6 +10,7 @@ import Headline from '@/components/layout/body/headline/Headline'
 import Breadcrumbs from '@/components/layout/body/breadcrumbs/Breadcrumbs'
 
 import Factorio from '../../../public/hobbies/factorio/Factoriogif.gif'
+import HobbiesImg from '../../../public/Hobbies.png'
 
 const Hobbies = () => {
 	const router = useRouter()
@@ -20,6 +21,7 @@ const Hobbies = () => {
 			<Headline
 				headlineTitle="What tickles my brain and gives me joy"
 				description="Uncover my passions and find out what tickles my brain and gives me joy, by exploring my hobbies. See how my interests have helped me develop skills and knowledge that can be applied in my daily life."
+				img={HobbiesImg}
 			/>
 			<Link href={`hobbies/factorio`} legacyBehavior>
 				<a>
