@@ -21,7 +21,7 @@ const Detail = ({ title, children }: Props) => {
 	return (
 		<div className="flex flex-col gap-10">
 			<Breadcrumbs fullPath={pathName} />
-			<h1 className="text-center text-5xl font-bold pt-16 tracking-wider">
+			<h1 className="text-center text-4xl md:text-6xl font-bold py-16 tracking-wide">
 				{title}
 			</h1>
 			{children}
