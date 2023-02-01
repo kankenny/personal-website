@@ -16,16 +16,14 @@ const Feature = ({ img, title, description, featureType }: Props) => {
 			<Image
 				src={img}
 				alt={title}
-				className="bg-blue-500 mx-auto w-full h-auto border border-zinc-700 rounded-lg shadow-md duration-200 cursor-pointer"
+				className="bg-black mx-auto w-full h-auto rounded-lg shadow-xl duration-200 cursor-pointer mb-2"
 			/>
 			<div className="py-4 flex flex-col gap-4 cursor-pointer ">
 				<div>
-					<h1 className="text-4xl font-bold capitalize text-purple-500">
+					<h1 className="text-4xl font-bold capitalize text-main">
 						{title}
 					</h1>
-					<h2 className="text-zinc-500 text-sm">
-						{featureType}
-					</h2>
+					<h2 className="text-gray text-sm">{featureType}</h2>
 				</div>
 				<div className="flex justify-between">
 					<p className="max-w-[75%] text-lg">{description}</p>
@@ -36,7 +34,7 @@ const Feature = ({ img, title, description, featureType }: Props) => {
 						viewBox="0 0 24 24"
 						height="4em"
 						width="4em"
-						className="opacity-0 group-hover:opacity-100 duration-200 text-purple-500"
+						className="opacity-0 group-hover:opacity-100 duration-200 text-main"
 						xmlns="http://www.w3.org/2000/svg"
 					>
 						<polyline

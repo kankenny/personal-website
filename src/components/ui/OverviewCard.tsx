@@ -26,7 +26,7 @@ const OverviewCard = ({ entry }: Props) => {
 					alt="Hotel Photo"
 					className="h-64 object-cover w-full overflow-hidden rounded-xl shadow-md"
 				/>
-				<h2 className="text-xl font-bold text-purple-500">
+				<h2 className="text-xl font-bold text-main">
 					{entry.title}
 				</h2>
 			</div>
@@ -37,13 +37,13 @@ const OverviewCard = ({ entry }: Props) => {
 						{entry.date && <p>{entry.date}</p>}
 					</div>
 				</div>
-				<div className="gap-2 flex justify-between items-center text-purple-500 text-sm border-t-slate-400 border-t mt-2 pt-2">
+				<div className="gap-2 flex justify-between items-center text-main text-sm border-t-gray border-t mt-2 pt-2">
 					{entry.position && entry.workCompany && (
 						<div>
 							<span className="font-bold">
 								{entry.position}
 							</span>
-							<span className="text-slate-400 pl-1">
+							<span className="text-gray pl-1">
 								{`@${entry.workCompany}`}
 							</span>
 						</div>

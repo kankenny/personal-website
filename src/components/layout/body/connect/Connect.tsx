@@ -7,11 +7,11 @@ type Props = {
 
 const Connect = ({ connectWithMeText }: Props) => {
 	return (
-		<SectionContainer twClasses="bg-zinc-900 pb-0">
-			<div className="flex flex-col gap-2 py-5 my-16 text-purple-500 group border-y-2 border-purple-500">
+		<SectionContainer twClasses="bg-black pb-0">
+			<div className="flex flex-col gap-2 py-5 my-16 text-main group border-y-2 border-main">
 				<h1 className="text-3xl font-bold">{connectWithMeText}</h1>
 				<div className="flex items-center cursor-pointer">
-					<p className="max-w-[75%] text-lg group-hover:underline">
+					<p className="max-w-[75%] text-lg group-hover:underline ">
 						Let&apos;s get in touch
 					</p>
 					<svg
@@ -19,8 +19,8 @@ const Connect = ({ connectWithMeText }: Props) => {
 						fill="currentColor"
 						strokeWidth="0"
 						viewBox="0 0 24 24"
-						height="2em"
-						width="2em"
+						height="2.3em"
+						width="2.3em"
 						xmlns="http://www.w3.org/2000/svg"
 					>
 						<polyline

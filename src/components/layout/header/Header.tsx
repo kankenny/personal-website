@@ -4,7 +4,7 @@ import HeaderContent from './HeaderContent'
 
 const Header = () => {
 	return (
-		<div className="bg-zinc-900 text-white py-5">
+		<div className="bg-black text-white py-5">
 			<HeaderContent />
 		</div>
 	)

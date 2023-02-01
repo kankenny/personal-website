@@ -79,7 +79,7 @@ const BreadCrumbItem = ({ path, isLast }: Props) => {
 	return (
 		<div
 			className={`flex flex-row gap-2 capitalize font-bold tracking-wider cursor-pointer hover:underline duration-200 hover:scale-110 items-center ${
-				isLast && 'text-purple-500'
+				isLast && 'text-main'
 			}`}
 		>
 			{SVGS[path.split('-').join('')]}
