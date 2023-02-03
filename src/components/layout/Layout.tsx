@@ -15,6 +15,7 @@ const Layout = ({ children }: Props) => {
 			className={`main-web-container flex flex-col min-h-screen text-black ${CHAKRAPETCHFONT.className}`}
 		>
 			<Header />
+			<div id="portal" />
 			<main>{children}</main>
 			<Footer />
 		</div>
