@@ -7,7 +7,7 @@ const BannerDescription = () => {
 				<div className="group-hover:underline decoration-white group-hover:text-yellow-300 group-hover:decoration-yellow-300  duration-300">
 					<p>Hi there! My name is</p>
 					<h1>Kennette James Basco</h1>
-					<p>— Aspiring Fullstack Software Engineer</p>
+					<p>— Frontend Web Developer</p>
 				</div>
 			</div>
 		</div>

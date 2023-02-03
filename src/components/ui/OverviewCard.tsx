@@ -1,8 +1,7 @@
 // Layout component for features listed in the child directory of the root page
 
-import CardHighlightClass from '@/utils/data-models/CardHighlightClass'
-import Image, { StaticImageData } from 'next/image'
 import React from 'react'
+import Image, { StaticImageData } from 'next/image'
 
 import Card from './Card'
 
