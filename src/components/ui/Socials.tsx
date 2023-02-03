@@ -3,11 +3,11 @@ import React from 'react'
 const Socials = () => {
 	return (
 		<div className="flex flex-col text-white space-y-10">
-			<div className="text-center p-2 text-6xl space-y-10">
+			<div className="text-center p-2 text-5xl space-y-10">
 				<h1 className="font-bold">
 					Thanks for taking an interest in me!
 				</h1>
-				<p className="text-2xl font-light pt-72">
+				<p className="text-2xl font-light">
 					React out to me here:{' '}
 				</p>
 			</div>
