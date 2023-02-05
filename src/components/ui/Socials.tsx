@@ -14,6 +14,8 @@ const Socials = () => {
 			<div className="flex flex-col md:flex-row justify-center items-center h-full gap-16 p-2 mt-10">
 				<a
 					href="https://www.linkedin.com/in/kennette-basco/"
+					target="_blank"
+					rel="noreferrer noopener"
 					className=" hover:text-gray-900 hover:text-yellow-500 hover:scale-110 duration-200"
 				>
 					<svg
@@ -30,6 +32,8 @@ const Socials = () => {
 				</a>
 				<a
 					href="https://github.com/Kankenny"
+					target="_blank"
+					rel="noreferrer noopener"
 					className=" hover:text-gray-900 hover:text-yellow-500 hover:scale-110 duration-200"
 				>
 					<svg
@@ -46,6 +50,8 @@ const Socials = () => {
 				</a>
 				<a
 					href="https://leetcode.com/Kankenny/"
+					target="_blank"
+					rel="noreferrer noopener"
 					className=" hover:text-gray-900 hover:text-yellow-500 hover:scale-110 duration-200"
 				>
 					<svg
@@ -64,6 +70,8 @@ const Socials = () => {
 				</a>
 				<a
 					href="https://www.facebook.com/kennette.maddela"
+					target="_blank"
+					rel="noreferrer noopener"
 					className=" hover:text-gray-900 hover:text-yellow-500 hover:scale-110 duration-200"
 				>
 					<svg
@@ -76,6 +84,27 @@ const Socials = () => {
 						xmlns="http://www.w3.org/2000/svg"
 					>
 						<path d="M880 112H144c-17.7 0-32 14.3-32 32v736c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V144c0-17.7-14.3-32-32-32zm-92.4 233.5h-63.9c-50.1 0-59.8 23.8-59.8 58.8v77.1h119.6l-15.6 120.7h-104V912H539.2V602.2H434.9V481.4h104.3v-89c0-103.3 63.1-159.6 155.3-159.6 44.2 0 82.1 3.3 93.2 4.8v107.9z"></path>
+					</svg>
+				</a>
+				<a
+					href="mailto:kmaddela@nyit.edu?Subject=Saw%20you%20on%20your%20website!"
+					target="_blank"
+					rel="noreferrer noopener"
+					className=" hover:text-gray-900 hover:text-yellow-500 hover:scale-110 duration-200"
+				>
+					<svg
+						stroke="currentColor"
+						fill="none"
+						strokeWidth="2"
+						viewBox="0 0 24 24"
+						strokeLinecap="round"
+						strokeLinejoin="round"
+						height="4em"
+						width="4em"
+						xmlns="http://www.w3.org/2000/svg"
+					>
+						<path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+						<polyline points="22,6 12,13 2,6"></polyline>
 					</svg>
 				</a>
 			</div>
