@@ -8,7 +8,7 @@ const Socials = () => {
 					Thanks for taking an interest in me!
 				</h1>
 				<p className="text-2xl font-light pt-72">
-					React out to me here:{' '}
+					React out to me here pls:{' '}
 				</p>
 			</div>
 			<div className="flex flex-col md:flex-row justify-center items-center h-full gap-16 p-2 mt-10">
