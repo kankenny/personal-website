@@ -8,7 +8,7 @@ const Socials = () => {
 					Thanks for taking an interest in me!
 				</h1>
 				<p className="text-2xl font-light pt-72">
-					React out to me here pls:{' '}
+					React out to me here:{' '}
 				</p>
 			</div>
 			<div className="flex flex-col md:flex-row justify-center items-center h-full gap-16 p-2 mt-10">
@@ -85,8 +85,10 @@ const Socials = () => {
 				</p>
 			</div>
 			<a
-				href="/BascoKennetteResume2022.pdf"
+				href="https://fastupload.io/oiBDjq3F4f2F8ve/preview"
 				download
+				target="_blank"
+				rel="noreferrer noopener"
 				className="flex space-x-2 justify-center items-center text-yellow-300 bg-slate-900 w-min mx-auto px-4 py-2 rounded-xl shadow-yellow-300 shadow-sm hover:scale-105 duration-100 hover:text-main hover:shadow-main"
 			>
 				<div className="flex space-x-2">
