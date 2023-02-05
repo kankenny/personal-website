@@ -9,13 +9,7 @@ const UndergraduateResearchAssistantMachineLearningDetail = () => {
 	return (
 		<Detail title="Undergraduate Research Assistant - Machine Learning">
 			{details.map((detail, index) => {
-				return (
-					<DetailSection
-						key={index}
-						detail={detail}
-						workType="projects"
-					/>
-				)
+				return <DetailSection key={index} detail={detail} />
 			})}
 		</Detail>
 	)
