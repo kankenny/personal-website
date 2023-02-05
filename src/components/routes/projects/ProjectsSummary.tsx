@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import { motion } from 'framer-motion'
 
 // Components
 import SectionContainer from '@/components/ui/SectionContainer'
@@ -16,6 +17,19 @@ type Props = {
 	excludeTitle?: string
 }
 
+const sectionContainerVariant = {
+	hidden: {
+		opacity: 0,
+	},
+	visible: {
+		opacity: 1,
+		transition: {
+			duration: 1,
+			staggerChildren: 0.3,
+		},
+	},
+}
+
 const ProjectsSummary = ({ excludeTitle }: Props) => {
 	let filtered: any[] = []
 
@@ -30,7 +44,13 @@ const ProjectsSummary = ({ excludeTitle }: Props) => {
 	return (
 		<SectionContainer twClasses="py-20">
 			<SectionTitle sectionTitle="See more of my projects" />
-			<div className="mx-auto grid grid-cols-1 gap-6 py-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+			<motion.div
+				className="mx-auto grid grid-cols-1 gap-6 py-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3"
+				variants={sectionContainerVariant}
+				initial="hidden"
+				whileInView="visible"
+				viewport={{ once: true, amount: 0.5 }}
+			>
 				{filtered.map((project) => (
 					<Link
 						legacyBehavior
@@ -44,7 +64,7 @@ const ProjectsSummary = ({ excludeTitle }: Props) => {
 						</a>
 					</Link>
 				))}
-			</div>
+			</motion.div>
 		</SectionContainer>
 	)
 }

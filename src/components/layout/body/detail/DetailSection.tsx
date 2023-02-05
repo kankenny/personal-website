@@ -1,4 +1,5 @@
 import React from 'react'
+import { motion } from 'framer-motion'
 
 import SectionContainer from '@/components/ui/SectionContainer'
 import Image, { StaticImageData } from 'next/image'
@@ -11,10 +12,30 @@ type Props = {
 	}
 }
 
+const detailSectionVariant = {
+	hidden: {
+		opacity: 0,
+		x: -15,
+	},
+	visible: {
+		opacity: 1,
+		x: 0,
+		transition: {
+			duration: 0.4,
+		},
+	},
+}
+
 const DetailSection = ({ detail }: Props) => {
 	return (
 		<SectionContainer twClasses="flex flex-col shadow-none pb-0 border-none">
-			<div className="gap-10 py-10 flex flex-col">
+			<motion.div
+				className="gap-10 py-10 flex flex-col"
+				variants={detailSectionVariant}
+				initial="hidden"
+				whileInView={'visible'}
+				viewport={{ once: true, amount: 0.3 }}
+			>
 				<Image
 					src={detail.img}
 					alt={detail.title}
@@ -29,7 +50,7 @@ const DetailSection = ({ detail }: Props) => {
 						{detail.description}
 					</p>
 				</div>
-			</div>
+			</motion.div>
 		</SectionContainer>
 	)
 }
