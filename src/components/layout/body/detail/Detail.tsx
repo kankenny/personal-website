@@ -7,13 +7,15 @@ import ProjectsSummary from '@/components/routes/projects/ProjectsSummary'
 import WorksSummary from '@/components/routes/work-experience/WorksSummary'
 
 import Breadcrumbs from '../breadcrumbs/Breadcrumbs'
+import LinkToSourceCode from './LinkToSourceCode'
 
 type Props = {
 	title: string
 	children: React.ReactNode
+	sourceCode?: string
 }
 
-const Detail = ({ title, children }: Props) => {
+const Detail = ({ title, children, sourceCode }: Props) => {
 	const router = useRouter()
 	const pathName = router.pathname
 	const parentPath = pathName.split('/')[1]
@@ -25,6 +27,7 @@ const Detail = ({ title, children }: Props) => {
 				{title}
 			</h1>
 			{children}
+			{sourceCode && <LinkToSourceCode sourceCode={sourceCode} />}
 			{parentPath === 'academics' && (
 				<AcademicSummary excludeTitle={title} />
 			)}

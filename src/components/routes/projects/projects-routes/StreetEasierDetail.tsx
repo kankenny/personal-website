@@ -7,7 +7,10 @@ import details from '@/data/projects-data/streeteasierData'
 
 const StreetEasierDetail = () => {
 	return (
-		<Detail title="StreetEasier">
+		<Detail
+			title="StreetEasier"
+			sourceCode="https://github.com/Kankenny/StreetEasier"
+		>
 			{details.map((detail, index) => {
 				return <DetailSection key={index} detail={detail} />
 			})}
