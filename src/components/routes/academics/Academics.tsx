@@ -10,6 +10,7 @@ import Breadcrumbs from '@/components/layout/body/breadcrumbs/Breadcrumbs'
 
 import CumulativeGPA from '../../../public/academics/cumulative-gpa/CumulativeGPA.png'
 import AcademicsImg from '../../../public/Academics.png'
+import SEO from '@/components/ui/SEO'
 
 const Academics = () => {
 	const router = useRouter()
@@ -17,6 +18,11 @@ const Academics = () => {
 
 	return (
 		<Body>
+			<SEO
+				pageTitle="Kennette Basco - Academics"
+				description="Kennette James Basco"
+				content="Academics"
+			/>
 			<Breadcrumbs fullPath={pathName} />
 			<Headline
 				headlineTitle="A showcase of passion & interest"

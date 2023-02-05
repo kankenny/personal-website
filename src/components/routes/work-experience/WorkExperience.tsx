@@ -12,6 +12,7 @@ import Breadcrumbs from '@/components/layout/body/breadcrumbs/Breadcrumbs'
 
 import SILeader from '../../../public/work-experience/supplemental-instruction-leader/SILeader.jpg'
 import WorkExperienceImg from '../../../public/WorkExperience.png'
+import SEO from '@/components/ui/SEO'
 
 const WorkExperience = () => {
 	const router = useRouter()
@@ -19,6 +20,11 @@ const WorkExperience = () => {
 
 	return (
 		<Body>
+			<SEO
+				pageTitle="Kennette Basco - Work Experience"
+				description="Kennette James Basco"
+				content="Work Experience"
+			/>
 			<Breadcrumbs fullPath={pathName} />
 			<Headline
 				headlineTitle="expression of knowledge & determination"

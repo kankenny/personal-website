@@ -9,6 +9,7 @@ import WorksSummary from '@/components/routes/work-experience/WorksSummary'
 
 import Breadcrumbs from '../breadcrumbs/Breadcrumbs'
 import LinkToSourceCode from './LinkToSourceCode'
+import SEO from '@/components/ui/SEO'
 
 type Props = {
 	title: string
@@ -35,6 +36,11 @@ const Detail = ({ title, children, sourceCode }: Props) => {
 
 	return (
 		<div className="flex flex-col gap-10">
+			<SEO
+				pageTitle={title}
+				description="Kennette James Basco"
+				content={title}
+			/>
 			<Breadcrumbs fullPath={pathName} />
 			<motion.div
 				variants={titleVariant}

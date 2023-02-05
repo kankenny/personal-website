@@ -2,6 +2,7 @@ import React from 'react'
 import { useRouter } from 'next/router'
 import Link from 'next/link'
 
+import SEO from '@/components/ui/SEO'
 import Body from '@/components/layout/body/Body'
 import Connect from '@/components/layout/body/connect/Connect'
 import Feature from '@/components/layout/body/feature/Feature'
@@ -17,6 +18,11 @@ const Hobbies = () => {
 	const pathName = router.pathname
 	return (
 		<Body>
+			<SEO
+				pageTitle="Kennette Basco - Hobbies"
+				description="Kennette James Basco"
+				content="Hobbies"
+			/>
 			<Breadcrumbs fullPath={pathName} />
 			<Headline
 				headlineTitle="What tickles my brain and gives me joy"

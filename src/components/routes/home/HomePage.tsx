@@ -6,10 +6,16 @@ import LatestWork from './latest-work/LatestWork'
 import Body from '@/components/layout/body/Body'
 import Connect from '@/components/layout/body/connect/Connect'
 import Rush from './rush/Rush'
+import SEO from '@/components/ui/SEO'
 
 const HomePage = () => {
 	return (
 		<Body>
+			<SEO
+				pageTitle="Kennette Basco - Homepage"
+				description="Kennette James Basco"
+				content="Homepage"
+			/>
 			<Banner />
 			<LatestWork />
 			<Rush />
