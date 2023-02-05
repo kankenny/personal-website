@@ -9,13 +9,7 @@ const SupplementalInstructionLeaderDetail = () => {
 	return (
 		<Detail title="Supplemental Instruction Leader - Calculus II">
 			{details.map((detail, index) => {
-				return (
-					<DetailSection
-						key={index}
-						detail={detail}
-						workType="projects"
-					/>
-				)
+				return <DetailSection key={index} detail={detail} />
 			})}
 		</Detail>
 	)

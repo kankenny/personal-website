@@ -9,13 +9,7 @@ const FactorioDetail = () => {
 	return (
 		<Detail title="Factorio">
 			{details.map((detail, index) => {
-				return (
-					<DetailSection
-						key={index}
-						detail={detail}
-						workType="projects"
-					/>
-				)
+				return <DetailSection key={index} detail={detail} />
 			})}
 		</Detail>
 	)
