@@ -1,4 +1,5 @@
 import React from 'react'
+import { motion } from 'framer-motion'
 import Image, { StaticImageData } from 'next/image'
 
 import SectionContainer from '@/components/ui/SectionContainer'
@@ -7,6 +8,21 @@ type Props = {
 	headlineTitle: string
 	description: string
 	img: StaticImageData | string
+}
+
+const imageVariant = {
+	hidden: {
+		opacity: 0,
+		scale: 0.5,
+	},
+	visible: {
+		opacity: 1,
+		scale: 1,
+		transition: {
+			duration: 1,
+			type: 'spring',
+		},
+	},
 }
 
 const Headline = ({ headlineTitle, description, img }: Props) => {
@@ -19,9 +35,14 @@ const Headline = ({ headlineTitle, description, img }: Props) => {
 					</h1>
 					<p className="pt-4">{description}</p>
 				</div>
-				<div className="w-full items-center">
+				<motion.div
+					className="w-full items-center"
+					variants={imageVariant}
+					initial="hidden"
+					animate="visible"
+				>
 					<Image src={img} alt={headlineTitle}></Image>
-				</div>
+				</motion.div>
 			</div>
 		</SectionContainer>
 	)
