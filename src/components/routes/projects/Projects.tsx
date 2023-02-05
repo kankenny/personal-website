@@ -8,6 +8,7 @@ import Headline from '@/components/layout/body/headline/Headline'
 import ProjectsSummary from './ProjectsSummary'
 import Feature from '@/components/layout/body/feature/Feature'
 import Breadcrumbs from '@/components/layout/body/breadcrumbs/Breadcrumbs'
+import SEO from '@/components/ui/SEO'
 
 import StreetEasier from '../../../public/projects/streeteasier/StreetEasierLandingPage.png'
 import ProjectsImg from '../../../public/Projects.png'
@@ -18,6 +19,11 @@ const Projects = () => {
 
 	return (
 		<Body>
+			<SEO
+				pageTitle="Kennette Basco - Projects"
+				description="Kennette James Basco"
+				content="Projects"
+			/>
 			<Breadcrumbs fullPath={pathName} />
 			<Headline
 				headlineTitle="A synergy of logic & creativity"
