@@ -19,7 +19,7 @@ const Socials = () => {
 					<svg
 						stroke="currentColor"
 						fill="currentColor"
-						stroke-width="0"
+						strokeWidth="0"
 						viewBox="0 0 1024 1024"
 						height="4em"
 						width="4em"
@@ -35,7 +35,7 @@ const Socials = () => {
 					<svg
 						stroke="currentColor"
 						fill="currentColor"
-						stroke-width="0"
+						strokeWidth="0"
 						viewBox="0 0 1024 1024"
 						height="4em"
 						width="4em"
@@ -51,7 +51,7 @@ const Socials = () => {
 					<svg
 						stroke="currentColor"
 						fill="currentColor"
-						stroke-width="0"
+						strokeWidth="0"
 						role="img"
 						viewBox="0 0 24 24"
 						height="4em"
@@ -69,7 +69,7 @@ const Socials = () => {
 					<svg
 						stroke="currentColor"
 						fill="currentColor"
-						stroke-width="0"
+						strokeWidth="0"
 						viewBox="0 0 1024 1024"
 						height="4em"
 						width="4em"
@@ -86,7 +86,6 @@ const Socials = () => {
 			</div>
 			<a
 				href="https://fastupload.io/oiBDjq3F4f2F8ve/preview"
-				download
 				target="_blank"
 				rel="noreferrer noopener"
 				className="flex space-x-2 justify-center items-center text-yellow-300 bg-slate-900 w-min mx-auto px-4 py-2 rounded-xl shadow-yellow-300 shadow-sm hover:scale-105 duration-100 hover:text-main hover:shadow-main"
@@ -98,26 +97,26 @@ const Socials = () => {
 					<svg
 						stroke="currentColor"
 						fill="currentColor"
-						stroke-width="0"
+						strokeWidth="0"
 						viewBox="0 0 16 16"
 						height="1.5em"
 						width="1.5em"
 						xmlns="http://www.w3.org/2000/svg"
 					>
 						<path
-							fill-rule="evenodd"
+							fillRule="evenodd"
 							d="M.5 8a.5.5 0 01.5.5V12a1 1 0 001 1h12a1 1 0 001-1V8.5a.5.5 0 011 0V12a2 2 0 01-2 2H2a2 2 0 01-2-2V8.5A.5.5 0 01.5 8z"
-							clip-rule="evenodd"
+							clipRule="evenodd"
 						></path>
 						<path
-							fill-rule="evenodd"
+							fillRule="evenodd"
 							d="M5 7.5a.5.5 0 01.707 0L8 9.793 10.293 7.5a.5.5 0 11.707.707l-2.646 2.647a.5.5 0 01-.708 0L5 8.207A.5.5 0 015 7.5z"
-							clip-rule="evenodd"
+							clipRule="evenodd"
 						></path>
 						<path
-							fill-rule="evenodd"
+							fillRule="evenodd"
 							d="M8 1a.5.5 0 01.5.5v8a.5.5 0 01-1 0v-8A.5.5 0 018 1z"
-							clip-rule="evenodd"
+							clipRule="evenodd"
 						></path>
 					</svg>
 				</div>
