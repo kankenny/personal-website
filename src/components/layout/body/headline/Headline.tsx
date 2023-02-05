@@ -21,6 +21,7 @@ const imageVariant = {
 		transition: {
 			duration: 1,
 			type: 'spring',
+			ease: 'easeInOut',
 		},
 	},
 }
