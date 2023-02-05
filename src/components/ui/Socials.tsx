@@ -8,9 +8,11 @@ const pathVariants = {
 	},
 	visible: {
 		opacity: 1,
+		rotate: 360,
 		scale: 1,
 		transition: {
 			duration: 1,
+			ease: 'easeInOut',
 		},
 	},
 }
