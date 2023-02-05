@@ -16,21 +16,17 @@ const Connect = ({ connectWithMeText }: Props) => {
 
 	return (
 		<Fragment>
-			{modalIsOpen && (
-				<Modal onClose={modalVisibilityHandler}>
-					<div className=" bg-red-500">AASDFASDFASD</div>
-				</Modal>
-			)}
+			{modalIsOpen && <Modal onClose={modalVisibilityHandler} />}
 			<SectionContainer twClasses="bg-black pb-0">
 				<div
 					className="flex flex-col gap-2 py-5 my-16 hover:text-main group border-y-2 hover:border-main cursor-pointer text-yellow-300 duration-200 border-yellow-300"
 					onClick={modalVisibilityHandler}
 				>
-					<h1 className="text-3xl font-bold">
+					<h1 className="text-4xl font-bold">
 						{connectWithMeText}
 					</h1>
 					<div className="flex items-center">
-						<p className="max-w-[75%] text-lg group-hover:underline ">
+						<p className="max-w-[75%] text-lg group-hover:underline font-light">
 							Let&apos;s get in touch
 						</p>
 						<svg
