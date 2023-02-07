@@ -43,10 +43,10 @@ const DetailSection = ({ detail }: Props) => {
 					quality={100}
 				/>
 				<div className="w-3/4 mx-auto space-y-10">
-					<h1 className="text-2xl md:text-3xl font-bold mb-4">
+					<h1 className="text-3xl md:text-4xl font-bold mb-4">
 						{detail.title}
 					</h1>
-					<p className="text-md leading-10 md:text-lg">
+					<p className="text-lg leading-8 md:text-xl">
 						{detail.description}
 					</p>
 				</div>

@@ -1,7 +1,5 @@
 import React, { MouseEventHandler } from 'react'
 
-import { useRouter } from 'next/router'
-
 type Props = {
 	onClick?: MouseEventHandler
 	linkText: string
