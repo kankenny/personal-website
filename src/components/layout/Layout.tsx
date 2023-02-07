@@ -13,7 +13,7 @@ type Props = {
 const Layout = ({ children }: Props) => {
 	return (
 		<div
-			className={`main-web-container flex flex-col min-h-screen text-black ${CHAKRAPETCHFONT.className}`}
+			className={`main-web-container flex flex-col min-h-screen text-black overflow-x-hidden ${CHAKRAPETCHFONT.className}`}
 		>
 			<Header />
 			<div id="portal" />
