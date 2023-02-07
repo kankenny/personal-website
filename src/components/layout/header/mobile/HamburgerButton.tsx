@@ -12,7 +12,7 @@ const HamburgerButton = ({ onClick, isMobileOpen }: Props) => {
 				id="menu-btn"
 				type="button"
 				onClick={onClick}
-				className={`z-40 block hamburger md:hidden focus:outline-none ${
+				className={`z-10 block hamburger md:hidden focus:outline-none ${
 					isMobileOpen ? 'open' : ''
 				}`}
 			>
