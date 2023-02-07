@@ -8,7 +8,7 @@ type Props = {
 const SectionContainer = ({ twClasses, children }: Props) => {
 	return (
 		<div
-			className={`shadow-md border-b border-zinc-500 border-opacity-50 pb-14 ${twClasses}`}
+			className={`shadow-md border-b border-zinc-500 border-opacity-50 pb-14 px-10 md:px-0 ${twClasses}`}
 		>
 			<div className="container mx-auto">{children}</div>
 		</div>
