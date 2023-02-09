@@ -19,17 +19,17 @@ const pathVariants = {
 
 const Socials = () => {
 	return (
-		<div className="flex flex-col text-white space-y-10">
-			<div className="text-center p-4 text-5xl space-y-10 mb-56">
+		<div className="flex flex-col text-white space-y-10 h-full justify-between p-10 text-center ">
+			<div className="p-4 text-5xl mb-32">
 				<h1 className="font-bold">
 					Thanks for taking an interest in me!
 				</h1>
 			</div>
-			<div className="text-center">
+			<div className="space-y-4">
 				<p className="text-2xl font-light">
 					React out to me here:{' '}
 				</p>
-				<div className="flex flex-col md:flex-row justify-center items-center h-full gap-16 p-2 mt-10">
+				<div className="flex flex-col md:flex-row justify-center items-center gap-16">
 					<a
 						href="https://www.linkedin.com/in/kennette-basco/"
 						target="_blank"
@@ -157,48 +157,48 @@ const Socials = () => {
 					</a>
 				</div>
 			</div>
-			<div className="text-center p-2 text-5xl">
+			<div className="space-y-4 border-t border-t-yellow-300 pt-10">
 				<p className="text-2xl font-light">
 					or see my portfolio here:
 				</p>
+				<a
+					href="https://fastupload.io/oiBDjq3F4f2F8ve/preview"
+					target="_blank"
+					rel="noreferrer noopener"
+					className="flex space-x-2 justify-center items-center text-yellow-300 bg-slate-900 w-min mx-auto px-4 py-2 rounded-xl shadow-yellow-300 shadow-sm hover:scale-105 duration-100 hover:text-main hover:shadow-main"
+				>
+					<div className="flex space-x-2">
+						<h1 className="underline italic tracking-wider text-md font-bold">
+							Resume
+						</h1>
+						<svg
+							stroke="currentColor"
+							fill="currentColor"
+							strokeWidth="0"
+							viewBox="0 0 16 16"
+							height="1.5em"
+							width="1.5em"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<path
+								fillRule="evenodd"
+								d="M.5 8a.5.5 0 01.5.5V12a1 1 0 001 1h12a1 1 0 001-1V8.5a.5.5 0 011 0V12a2 2 0 01-2 2H2a2 2 0 01-2-2V8.5A.5.5 0 01.5 8z"
+								clipRule="evenodd"
+							></path>
+							<path
+								fillRule="evenodd"
+								d="M5 7.5a.5.5 0 01.707 0L8 9.793 10.293 7.5a.5.5 0 11.707.707l-2.646 2.647a.5.5 0 01-.708 0L5 8.207A.5.5 0 015 7.5z"
+								clipRule="evenodd"
+							></path>
+							<path
+								fillRule="evenodd"
+								d="M8 1a.5.5 0 01.5.5v8a.5.5 0 01-1 0v-8A.5.5 0 018 1z"
+								clipRule="evenodd"
+							></path>
+						</svg>
+					</div>
+				</a>
 			</div>
-			<a
-				href="https://fastupload.io/oiBDjq3F4f2F8ve/preview"
-				target="_blank"
-				rel="noreferrer noopener"
-				className="flex space-x-2 justify-center items-center text-yellow-300 bg-slate-900 w-min mx-auto px-4 py-2 rounded-xl shadow-yellow-300 shadow-sm hover:scale-105 duration-100 hover:text-main hover:shadow-main"
-			>
-				<div className="flex space-x-2">
-					<h1 className="underline italic tracking-wider text-md font-bold">
-						Resume
-					</h1>
-					<svg
-						stroke="currentColor"
-						fill="currentColor"
-						strokeWidth="0"
-						viewBox="0 0 16 16"
-						height="1.5em"
-						width="1.5em"
-						xmlns="http://www.w3.org/2000/svg"
-					>
-						<path
-							fillRule="evenodd"
-							d="M.5 8a.5.5 0 01.5.5V12a1 1 0 001 1h12a1 1 0 001-1V8.5a.5.5 0 011 0V12a2 2 0 01-2 2H2a2 2 0 01-2-2V8.5A.5.5 0 01.5 8z"
-							clipRule="evenodd"
-						></path>
-						<path
-							fillRule="evenodd"
-							d="M5 7.5a.5.5 0 01.707 0L8 9.793 10.293 7.5a.5.5 0 11.707.707l-2.646 2.647a.5.5 0 01-.708 0L5 8.207A.5.5 0 015 7.5z"
-							clipRule="evenodd"
-						></path>
-						<path
-							fillRule="evenodd"
-							d="M8 1a.5.5 0 01.5.5v8a.5.5 0 01-1 0v-8A.5.5 0 018 1z"
-							clipRule="evenodd"
-						></path>
-					</svg>
-				</div>
-			</a>
 		</div>
 	)
 }
