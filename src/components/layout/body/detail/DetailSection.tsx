@@ -15,7 +15,7 @@ type Props = {
 const detailSectionVariant = {
 	hidden: {
 		opacity: 0,
-		x: -15,
+		x: -100,
 	},
 	visible: {
 		opacity: 1,
@@ -33,8 +33,8 @@ const DetailSection = ({ detail }: Props) => {
 				className="gap-10 py-10 flex flex-col"
 				variants={detailSectionVariant}
 				initial="hidden"
-				whileInView={'visible'}
-				viewport={{ once: true, amount: 0.3 }}
+				whileInView="visible"
+				viewport={{ once: true, amount: 0.1 }}
 			>
 				<Image
 					src={detail.img}
