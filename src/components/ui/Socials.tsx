@@ -27,7 +27,7 @@ const Socials = () => {
 			</div>
 			<div className="space-y-4">
 				<p className="text-2xl font-light">
-					React out to me here:{' '}
+					Reach out to me here:{' '}
 				</p>
 				<div className="flex flex-col md:flex-row justify-center items-center gap-16">
 					<a
