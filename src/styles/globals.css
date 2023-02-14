@@ -4,7 +4,7 @@
 
 @layer components {
 	.main-web-container {
-		background-color: theme('colors.zinc.100');
+		background-color: theme('colors.black');
 	}
 
 	.card {

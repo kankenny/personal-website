@@ -20,7 +20,7 @@ const divVariant = {
 const LinkToSourceCode = ({ sourceCode }: Props) => {
 	return (
 		<motion.div
-			className="mx-auto text-4xl text-white font-bold underline duration-200 hover:text-white bg-darkGray hover:bg-black rounded-lg px-5 py-2 border-2 border-black my-4 hover:border-white"
+			className="mx-auto text-2xl md:text-4xl text-white font-bold underline duration-200 hover:text-white bg-darkGray hover:bg-black rounded-lg px-8 py-5 border-2 border-black my-4 hover:border-white"
 			variants={divVariant}
 			initial="hidden"
 			animate="visible"

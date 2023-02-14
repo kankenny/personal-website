@@ -6,7 +6,7 @@ import LatestWorkList from './LatestWorkList'
 
 const LatestWork = () => {
 	return (
-		<SectionContainer twClasses="bg-zinc-200">
+		<SectionContainer>
 			<SectionTitle
 				sectionTitle="some of my latest work"
 				isOdd={true}

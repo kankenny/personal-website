@@ -10,7 +10,7 @@ const Breadcrumbs = ({ fullPath }: Props) => {
 	const fullPathArray = fullPath.split('/')
 
 	return (
-		<SectionContainer twClasses="pt-4 shadow-none border-none pb-0">
+		<SectionContainer twClasses="hidden md:block pt-4 shadow-none border-none pb-0">
 			<div className="flex flex-row space-x-2 items-center border-b border-b-gray pb-4">
 				{fullPathArray.map((path, index) => (
 					<BreadCrumbItem

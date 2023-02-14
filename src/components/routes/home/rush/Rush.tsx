@@ -9,7 +9,7 @@ const Rush = () => {
 				target="_blank"
 				rel="noreferrer noopener"
 			>
-				<div className="flex flex-col gap-2 py-5 my-16 hover:text-main group border-y-2 hover:border-main cursor-pointer text-yellow-300 duration-200 border-yellow-300">
+				<div className="flex flex-col gap-2 py-5 my-24 hover:text-main group border-y-2 hover:border-main cursor-pointer text-yellow-300 duration-200 border-yellow-300">
 					<h1 className="text-4xl font-bold">In a rush?</h1>
 					<div className="flex items-center">
 						<p className="max-w-[75%] text-lg group-hover:underline font-light">
