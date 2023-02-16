@@ -29,12 +29,12 @@ const cardVariant = {
 const OverviewCard = ({ entry }: Props) => {
 	return (
 		<motion.div variants={cardVariant}>
-			<Card twClasses="rounded-xl bg-black text-white p-2 hover:shadow-xl hover:transform hover:scale-105 duration-200 group cursor-pointer min-h-[30em] flex flex-col justify-between">
-				<div className="space-y-2 relative text-main">
+			<Card twClasses="rounded-xl bg-black text-white p-2 hover:shadow-xl hover:transform hover:scale-105 duration-200 group cursor-pointer min-h-[30em] flex flex-col justify-between relative">
+				<div className="space-y-2 text-main">
 					<Image
 						src={entry.img}
 						alt={entry.title}
-						className="h-64 object-cover w-full overflow-hidden rounded-xl shadow-md group-hover:blur-sm duration-200 relative"
+						className="h-64 object-cover overflow-hidden rounded-xl shadow-md group-hover:blur-sm duration-200"
 					/>
 					<h2 className="text-xl font-bold ">
 						{entry.title}
@@ -45,14 +45,14 @@ const OverviewCard = ({ entry }: Props) => {
 							strokeWidth="0"
 							viewBox="0 0 24 24"
 							height="4em"
-							width="4em"
-							className=" opacity-0 group-hover:opacity-100 duration-200 absolute top-1/3 left-[9em]"
+							width="6em"
+							className="opacity-0 group-hover:opacity-100 duration-200 absolute left-1/2 transform -translate-x-1/2 top-[6em] hidden sm:block inset-x-32 "
 							xmlns="http://www.w3.org/2000/svg"
 						>
 							<polyline
 								fill="none"
-								strokeWidth="2"
-								points="7 2 17 12 7 22"
+								strokeWidth="2.5"
+								points="7 2 17 12 7 22" 
 							></polyline>
 						</svg>
 				</div>
