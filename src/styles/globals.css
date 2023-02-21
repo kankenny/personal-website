@@ -3,118 +3,118 @@
 @tailwind utilities;
 
 @layer components {
-	.main-web-container {
-		background-color: theme('colors.black');
-	}
+  .main-web-container {
+    background-color: theme("colors.white");
+  }
 
-	.card {
-		padding: 1px 2px;
-		background-color: theme('colors.zinc.100');
-		border-radius: theme('borderRadius.lg');
-		padding: theme('spacing.6');
-		box-shadow: theme('boxShadow.sm');
-		border: theme('colors.zinc.200') 1px solid;
-	}
+  .card {
+    padding: 1px 2px;
+    background-color: theme("colors.white");
+    border-radius: theme("borderRadius.lg");
+    padding: theme("spacing.6");
+    box-shadow: theme("boxShadow.sm");
+    border: theme("colors.zinc.300") 1px solid;
+  }
 
-	.button {
-		color: theme('colors.zinc.100');
-		user-select: none;
-		background: theme('colors.purple.700');
-		box-shadow: theme('boxShadow.sm');
-		border-radius: theme('borderRadius.xl');
-	}
+  .button {
+    color: theme("colors.white");
+    user-select: none;
+    background: theme("colors.purple.700");
+    box-shadow: theme("boxShadow.sm");
+    border-radius: theme("borderRadius.xl");
+  }
 
-	.button:hover {
-		transition: 0.2s ease-in-out;
-		transform: scale(1.1);
-	}
+  .button:hover {
+    transition: 0.2s ease-in-out;
+    transform: scale(1.1);
+  }
 
-	.input {
-		padding: 10px 17px;
-		background-color: theme('colors.zinc.100');
-		outline: none;
-		border: theme('colors.zinc.200') solid;
-		border-radius: theme('borderRadius.lg');
-	}
+  .input {
+    padding: 10px 17px;
+    background-color: theme("colors.white");
+    outline: none;
+    border: theme("colors.zinc.200") solid;
+    border-radius: theme("borderRadius.lg");
+  }
 }
 
 .hamburger {
-	cursor: pointer;
-	width: 32px;
-	height: 32px;
-	transition: all 0.25s;
-	position: relative;
-	z-index: 41;
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+  transition: all 0.25s;
+  position: relative;
+  z-index: 41;
 }
 
 .hamburger-top,
 .hamburger-middle,
 .hamburger-bottom {
-	position: absolute;
-	width: 32px;
-	height: 3px;
-	top: 0;
-	left: 0;
-	background: white;
-	transform: rotate(0);
-	transition: all 0.3s;
+  position: absolute;
+  width: 32px;
+  height: 3px;
+  top: 0;
+  left: 0;
+  background: white;
+  transform: rotate(0);
+  transition: all 0.3s;
 }
 
 .hamburger-middle {
-	transform: translateY(7px);
+  transform: translateY(7px);
 }
 
 .hamburger-bottom {
-	transform: translateY(14px);
+  transform: translateY(14px);
 }
 
 .open {
-	transform: rotate(90deg);
+  transform: rotate(90deg);
 }
 
 .open .hamburger-top {
-	transform: rotate(45deg) translateY(6px) translateX(6px);
+  transform: rotate(45deg) translateY(6px) translateX(6px);
 }
 
 .open .hamburger-middle {
-	display: none;
+  display: none;
 }
 
 .open .hamburger-bottom {
-	transform: rotate(-45deg) translateY(6px) translateX(-6px);
+  transform: rotate(-45deg) translateY(6px) translateX(-6px);
 }
 
 .backdrop {
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100vh;
-	z-index: 10;
-	background-color: rgba(15, 15, 15, 0.85);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+  background-color: rgba(15, 15, 15, 0.85);
 }
 
 .modal {
-	position: fixed;
-	top: 15%;
-	left: 20%;
-	bottom: 15%;
-	right: 20%;
-	background-color: black;
-	padding: 1rem;
-	border-radius: 14px;
-	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
-	z-index: 10;
-	animation: slide-down 300ms ease-out forwards;
+  position: fixed;
+  top: 15%;
+  left: 20%;
+  bottom: 15%;
+  right: 20%;
+  background-color: black;
+  padding: 1rem;
+  border-radius: 14px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  z-index: 10;
+  animation: slide-down 300ms ease-out forwards;
 }
 
 @keyframes slide-down {
-	from {
-		opacity: 0;
-		transform: translateY(-6rem);
-	}
-	to {
-		opacity: 1;
-		transform: translateY(0);
-	}
+  from {
+    opacity: 0;
+    transform: translateY(-6rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
