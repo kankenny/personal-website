@@ -1,21 +1,21 @@
 // Layout component for features listed in the child directory of the root page
 
-import React from "react"
-import { motion } from "framer-motion"
-import Image, { StaticImageData } from "next/image"
+import React from "react";
+import { motion } from "framer-motion";
+import Image, { StaticImageData } from "next/image";
 
-import Card from "./Card"
+import Card from "./Card";
 
 type Props = {
   entry: {
-    img: StaticImageData
-    title: string
-    overview: string
-    workCompany: string
-    position: string
-    date?: string
-  }
-}
+    img: StaticImageData;
+    title: string;
+    overview: string;
+    workCompany: string;
+    position: string;
+    date?: string;
+  };
+};
 
 const cardVariant = {
   hidden: { y: -50, opacity: 0 },
@@ -24,7 +24,7 @@ const cardVariant = {
     opacity: 1,
     transition: { duration: 0.5, ease: "easeInOut" },
   },
-}
+};
 
 const OverviewCard = ({ entry }: Props) => {
   return (
@@ -74,7 +74,7 @@ const OverviewCard = ({ entry }: Props) => {
         </div>
       </Card>
     </motion.div>
-  )
-}
+  );
+};
 
-export default OverviewCard
+export default OverviewCard;
