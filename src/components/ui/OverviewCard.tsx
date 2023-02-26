@@ -29,7 +29,7 @@ const cardVariant = {
 const OverviewCard = ({ entry }: Props) => {
   return (
     <motion.div variants={cardVariant}>
-      <Card twClasses="rounded-xl p-2 hover:shadow-xl hover:transform hover:scale-105 duration-200 group cursor-pointer min-h-[30em] flex flex-col justify-between relative">
+      <Card twClasses="rounded-xl p-2 border hover:shadow-xl hover:transform hover:scale-105 hover:border-black duration-200 group cursor-pointer min-h-[30em] flex flex-col justify-between relative">
         <div className="space-y-2 text-main">
           <Image
             src={entry.img}
@@ -56,12 +56,12 @@ const OverviewCard = ({ entry }: Props) => {
         </div>
         <div className="text-xs">
           <div className="pb-2">
-            <div className="mt-1  pt-3 flex justify-between">
+            <div className="mt-1 pt-3 flex justify-between">
               <p className="pr-4">{entry.overview}</p>
               {entry.date && <p>{entry.date}</p>}
             </div>
           </div>
-          <div className="gap-2 items-center text-main border-t-gray border-t mt-2 pt-2">
+          <div className="gap-2 items-center text-main border-t-gray border-t group-hover:border-t-black mt-2 pt-2">
             {entry.position && entry.workCompany && (
               <div>
                 <span className="font-bold">{entry.position}</span>
