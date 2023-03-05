@@ -3,13 +3,13 @@ import React from "react"
 
 const Rush = () => {
   return (
-    <SectionContainer twClasses="pb-0">
+    <SectionContainer twClasses="pb-0 bg-black">
       <a
         href="https://fastupload.io/en/mTioSvRQcHIq6fl/preview"
         target="_blank"
         rel="noreferrer noopener"
       >
-        <div className="flex flex-col gap-2 py-5 my-24 hover:text-main group border-y-2 hover:border-main cursor-pointer text-black duration-200 border-black">
+        <div className="flex flex-col gap-2 py-5 my-24 hover:text-main group border-y-2 hover:border-main cursor-pointer text-white duration-200 border-white">
           <h1 className="text-4xl font-bold">In a rush?</h1>
           <div className="flex items-center">
             <p className="max-w-[75%] text-lg group-hover:underline font-light">
