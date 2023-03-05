@@ -17,9 +17,9 @@ const Connect = ({ connectWithMeText }: Props) => {
   return (
     <Fragment>
       {modalIsOpen && <Modal onClose={modalVisibilityHandler} />}
-      <SectionContainer twClasses="pb-0">
+      <SectionContainer twClasses="pb-0 bg-black">
         <div
-          className="flex flex-col gap-2 py-5 my-24 hover:text-main group border-y-2 hover:border-main cursor-pointer text-black duration-200 border-black"
+          className="flex flex-col gap-2 py-5 my-24 hover:text-main group border-y-2 hover:border-main cursor-pointer text-white duration-200 border-white"
           onClick={modalVisibilityHandler}
         >
           <h1 className="text-4xl font-bold">{connectWithMeText}</h1>
