@@ -1,21 +1,21 @@
 // Layout component for features listed in the child directory of the root page
 
-import React from "react";
-import { motion } from "framer-motion";
-import Image, { StaticImageData } from "next/image";
+import React from "react"
+import { motion } from "framer-motion"
+import Image, { StaticImageData } from "next/image"
 
-import Card from "./Card";
+import Card from "./Card"
 
 type Props = {
   entry: {
-    img: StaticImageData;
-    title: string;
-    overview: string;
-    workCompany: string;
-    position: string;
-    date?: string;
-  };
-};
+    img: StaticImageData
+    title: string
+    overview: string
+    workCompany: string
+    position: string
+    date?: string
+  }
+}
 
 const cardVariant = {
   hidden: { y: -50, opacity: 0 },
@@ -24,12 +24,12 @@ const cardVariant = {
     opacity: 1,
     transition: { duration: 0.5, ease: "easeInOut" },
   },
-};
+}
 
 const OverviewCard = ({ entry }: Props) => {
   return (
     <motion.div variants={cardVariant}>
-      <Card twClasses="rounded-xl p-2 border hover:shadow-xl hover:transform hover:scale-105 hover:border-black duration-200 group cursor-pointer min-h-[30em] flex flex-col justify-between relative">
+      <Card twClasses="rounded-xl p-2 border hover:shadow-xl hover:transform hover:scale-105 hover:border-black duration-200 group cursor-pointer min-h-[30em] flex flex-col justify-between relative ease-in-out">
         <div className="space-y-2 text-main">
           <Image
             src={entry.img}
@@ -74,7 +74,7 @@ const OverviewCard = ({ entry }: Props) => {
         </div>
       </Card>
     </motion.div>
-  );
-};
+  )
+}
 
-export default OverviewCard;
+export default OverviewCard

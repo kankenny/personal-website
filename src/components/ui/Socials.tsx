@@ -19,7 +19,7 @@ const pathVariants = {
 
 const Socials = () => {
   return (
-    <div className="flex flex-col text-white space-y-10 h-full justify-between p-10 text-center">
+    <div className="flex flex-col text-white space-y-10 h-full justify-between p-10 text-center ease-in-out">
       <div className="p-4 text-5xl mb-32">
         <h1 className="font-bold">Thanks for taking an interest in me!</h1>
       </div>

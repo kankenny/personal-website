@@ -22,6 +22,7 @@
     background: theme("colors.purple.700");
     box-shadow: theme("boxShadow.sm");
     border-radius: theme("borderRadius.xl");
+    transition-timing-function: theme("transitionTimingFunction.in-out");
   }
 
   .button:hover {
