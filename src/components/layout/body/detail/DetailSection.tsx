@@ -34,7 +34,7 @@ const DetailSection = ({ detail }: Props) => {
         variants={detailSectionVariant}
         initial="hidden"
         whileInView="visible"
-        viewport={{ once: true, amount: 0.1 }}
+        viewport={{ once: true, amount: 0.5 }}
       >
         <Image
           src={detail.img}
