@@ -34,7 +34,7 @@ const OverviewCard = ({ entry }: Props) => {
           <Image
             src={entry.img}
             alt={entry.title}
-            className="h-64 object-cover overflow-hidden rounded-xl shadow-md group-hover:blur-sm duration-200"
+            className="h-64 object-cover overflow-hidden rounded-xl shadow-md duration-200"
           />
           <h2 className="text-xl font-bold ">{entry.title}</h2>
           <svg
