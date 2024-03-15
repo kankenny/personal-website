@@ -1,5 +1,5 @@
-import React from "react"
-import { motion } from "framer-motion"
+import React from "react";
+import { motion } from "framer-motion";
 
 const pathVariants = {
   hidden: {
@@ -15,7 +15,7 @@ const pathVariants = {
       ease: "easeInOut",
     },
   },
-}
+};
 
 const Socials = () => {
   return (
@@ -157,7 +157,7 @@ const Socials = () => {
         <div className="space-y-6 border-t border-t-white pt-6">
           <p className="text-2xl font-light">or see my portfolio here:</p>
           <a
-            href="https://fastupload.io/wo0LI2GelyF0Rft/preview"
+            href="https://drive.google.com/file/d/13XLydSYCEyRpe4o5vI3aTxx8b-cnd9sJ/view?usp=sharing"
             target="_blank"
             rel="noreferrer noopener"
             className="flex space-x-2 justify-center items-center text-white bg-slate-900 w-min mx-auto px-4 py-2 rounded-xl shadow-white shadow-sm hover:scale-105 duration-100 hover:text-main hover:shadow-main"
@@ -196,7 +196,7 @@ const Socials = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Socials
+export default Socials;
