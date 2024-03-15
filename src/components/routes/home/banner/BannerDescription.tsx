@@ -23,9 +23,10 @@ const BannerDescription = () => {
     >
       <div className="bg-darkGray rounded-md max-w-max p-6">
         <div className="group-hover:underline decoration-white group-hover:text-main group-hover:decoration-main  duration-300">
-          <p>Hi there! My name is</p>
-          <h1>Kennette James Basco</h1>
-          <p>— Frontend Web Developer</p>
+          <p>Hey there! My name is</p>
+          <h1>Kennette Basco</h1>
+          <p>— I love training deep learning models, studying statistics, and
+            building fullstack websites!</p>
         </div>
       </div>
     </motion.div>
