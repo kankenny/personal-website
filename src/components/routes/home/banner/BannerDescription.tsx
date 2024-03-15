@@ -16,7 +16,7 @@ const textVariant = {
 const BannerDescription = () => {
   return (
     <motion.div
-      className="w-1/2 text-white text-lg  md:text-2xl space-y-10 text-center p-10 md:pr-0 md:mx-auto md:text-left my-auto font-bold"
+      className="w-full md:w-1/2 text-white text-lg md:text-3xl space-y-10 text-center p-10 md:pr-0 md:mx-auto md:text-left my-auto font-bold"
       variants={textVariant}
       initial="hidden"
       animate="visible"
