@@ -5,7 +5,7 @@ const Rush = () => {
   return (
     <SectionContainer twClasses="pb-0 bg-black">
       <a
-        href="https://drive.google.com/file/d/1RFwdHEx8a1r2QSEXXJOEHzJzPYs7UlKi/view?usp=sharing"
+        href="https://drive.google.com/file/d/10JIthkDkrQ2Y9uZoVihae1r6Hg0WN-QA/view?usp=sharing"
         target="_blank"
         rel="noreferrer noopener"
       >
