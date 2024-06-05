@@ -1,11 +1,11 @@
-import SectionContainer from "@/components/ui/SectionContainer"
-import React from "react"
+import SectionContainer from "@/components/ui/SectionContainer";
+import React from "react";
 
 const Rush = () => {
   return (
     <SectionContainer twClasses="pb-0 bg-black">
       <a
-        href="https://drive.google.com/file/d/10JIthkDkrQ2Y9uZoVihae1r6Hg0WN-QA/view?usp=sharing"
+        href="https://drive.google.com/file/d/1enLTnzl4jVLIoNPqDpy_vWERfuiLIvn_/view?usp=sharing"
         target="_blank"
         rel="noreferrer noopener"
       >
@@ -34,7 +34,7 @@ const Rush = () => {
         </div>
       </a>
     </SectionContainer>
-  )
-}
+  );
+};
 
-export default Rush
+export default Rush;
