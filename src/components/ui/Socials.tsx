@@ -157,7 +157,7 @@ const Socials = () => {
         <div className="space-y-6 border-t border-t-white pt-6">
           <p className="text-2xl font-light">or see my portfolio here:</p>
           <a
-            href="https://drive.google.com/file/d/10JIthkDkrQ2Y9uZoVihae1r6Hg0WN-QA/view?usp=sharing"
+            href="https://drive.google.com/file/d/1enLTnzl4jVLIoNPqDpy_vWERfuiLIvn_/view?usp=sharing"
             target="_blank"
             rel="noreferrer noopener"
             className="flex space-x-2 justify-center items-center text-white bg-slate-900 w-min mx-auto px-4 py-2 rounded-xl shadow-white shadow-sm hover:scale-105 duration-100 hover:text-main hover:shadow-main"
